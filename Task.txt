@@ -1,0 +1,73 @@
+	school management 
+demo with nodejs+angluar 
+-> registration student/teacher
+-> Login
+-> forgot password
+
+ng generate module customers --route customers --module app.module   it will generate module file
+ng g c to generate component
+
+
+git clone http://27.109.9.122:3000/wc.baldevparmar/school_management_demo_rizwan.git|
+git checkout rizwan
+
+
+npm install
+
+git add .
+
+git commit -m "Your functionality short message"
+
+git push -u HEAD or git push origin rizwan
+
+url: 27.109.9.122:3000
+user: wc.rizwan
+password: rizwan#123
+
+git clone
+
+git checkout M1
+npm install --save
+git checkout -b M1_API_CMS
+dbUrl="mongodb://root:J4TITUwCItYX@18.188.161.74:27017/"
+dbUrl="mongodb://localhost:27017/"
+
+M1_API_CHAPTER for topic,question and video
+M1_SUBJECT_MANAGEMENT from angular side
+M2_SUBJECT_MANAGEMENT from the Node MS2
+
+M1_CONTACTUS_MODULE FROM the Angular
+M1_CONTACTUS_MODULE from the Node
+
+12May addSubQuestionOption, remove Sub Questions Options 
+13May code optinaztion and api testing
+14May code optimzation and testing in angular,changes in schema 
+15May setup angular
+18May Testing API from the angular side 4 remainng - done time sheet 
+19May timesheet remaining  - 5 hours training , 4 hourss remaining  -done time sheet 
+20May  timesheet remaining -done time sheet 
+21May timesheet remaining
+
+https://ciphertrick.com/read-excel-files-convert-json-node-js/
+
+Works
+   students                               not Working
+student GetList                        in edit grade not applied
+status changes student                   
+view details
+delete student
+Search by filter
+
+parent
+dlete
+update
+
+school 
+add 
+delete
+
+localhost:4200/admin
+webclues.superadmn@gmail.com
+Prakash@123
+
+http://localhost:4200/admin/contact-us-management/list

@@ -1,0 +1,38 @@
+Array { 
+
+syntax: datatype[] variablname
+        int[] luckyNumbers = {2,4,6,8};
+console.wiriteLine( luckyNumber[1] );
+
+creATIng  INatAance of an array portion will be 1:29:40
+string[] friends = new string[5];
+string[0] = "rizwan";
+string[1] = "shaikh";
+
+      }
+
+Method {
+
+will be 1:37:58
+       }
+
+Return {
+1: 45 : 02
+}
+
+for loop Example { 03: 05: 21 }
+
+two dimentional array { 03: 08: 59 }
+
+try catch { 03: 23: 10 }
+
+class { 03: 29: 51 }
+
+constructor { 03: 37: 43 }
+
+object method { 03: 53: 42 }
+
+inherit { 04: 21: 15 }
+inherit the al the functionality of an another class
+
+overriding { 04: 30: 06 }

@@ -1,0 +1,24 @@
+git add .
+git commit -m "Message"
+git pull origin <branch name>
+
+IF CONFILCTS OCCURES
+git add .
+git commit -m "Conflict fixed"
+
+git push origin <branch name>
+
+===== to be uploaded on git hub =====
+crudMean
+lazyloading
+
+what is github?
+GitHub ek web based hosting service hai jisme Git ki madad se version control karke ham apne project ke  programming code ko pratyek stage par.
+
+what is git?
+git is opensource version controlling tool.
+
+git stash?
+Now you want to switch branches, but you don’t want to commit what you’ve been working on yet,
+so you’ll stash the changes. To push a new stash onto your stack, run git stash or git stash push:
+

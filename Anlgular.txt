@@ -1,0 +1,126 @@
+ Angular question anwer
+  1) what is angular ?
+=>   Angular is front End Development Fram work. front end development is all about part of users see
+     Angular is used to make a single page application. single page application is an app that works         inside a browser doesnot require page reloading during use.
+     Angular is a single page Application. is plateform and framwork for building client application in      html, typescript
+  2) Angular Features ?
+=>   Angular cli,animation support, cross plat form app development, code generation, template,      testing. 
+   
+  3) Advantages of agular ?
+=>   client and server communication,animation and event handler, two way data binding, dependancy inection.
+     
+  4) what is  string interpolation in Angular ?
+=>   <p *ngFor="let elements of element"> {{element}} </p>
+  	
+
+  5) Authentication And Athorization ?
+=>   Autentication: users credential is saved on server-side it is compared if userame and password       are match they access.
+     Authorization: it is related to some kind of restriction. for some people may access to everithing      and some people may not access to everything. these level of access is called authorization.
+
+  6) Annotaion & Decorator ?
+  7) Directive in Angular ?
+  8) what is Data binding & its type ?
+=>   string InterPolation{{}},propertyBinding[property]="property", Event binding(event)="event", two      way data binding[(banana)]="inthebox"
+
+
+  9) what is ngOnInit() ?
+ 10) Defferentiate one-way biding and two-way databinding.?
+=>   https://www.youtube.com/watch?v=EDwC16t0IR0.
+
+ 11) what is module?
+=> Modules are the container of angular code. they are a logical group of the classes, functions, compo
+   nents, so forth.
+     Module in Angular refers to a place where you can group the components, directives, pipes, and      services, which are related to the application.
+
+ 12) difference beetwen component & module 
+=>    component:- Components are basically classes that interact with the .html file of the component.                   
+13) life cycle Hookes?
+=>
+14) what view child in angular?
+=>
+15) how many type of directives in angular?
+ 16)observable, subscribe, RxJS (Reactive Extention for javaScript), promisic,aync asynce?
+=> Observable:- is class of RxJS library.to use asyncrounouse programming in angular application in
+                angular we will either use Observable or promise.
+   Promises:- work with acyncronouse operation and they either return us a single value or an error an
+              error message.
+ 
+17) what is Dependancy Injection in Angular?
+=>
+18)what is services in angular?
+=> services are reusable unit of code in angular application. services are the separet from the component and other directives. they don't have userinterface or view.
+
+19) what is services?
+=>  services is a piece of code that are used to perform specific task, services contains value or     function or combination of both.services are injected into application using dependancy injection.
+services is a mechanism used to share the functionality between component.
+ 
+directives:-  There are three kinds of directives in Angular: Components—directives with a template. Structural directives—change the DOM layout by adding and removing DOM elements ex: ng*if ng*for. Attribute directives—change the appearance or behavior of an element ex:ng style ng class, component, or another directive.
+
+20) constructor,ngOnInit in angular?
+=>  constructor:- 
+
+21) work flow of angular?
+=>   main.ts
+     app.module.ts
+     app.component.ts
+
+22) Router: is mechanism in angular to navigate between the pages and dispalying appropriate pages on              browser
+
+23) what is Node?
+=>  Node.js is plateform built on chrom's javascript run time for easily building fast scalable network
+    applications. Node.js uses an event-driven, none-blocking i/o model that makes it lightweight.
+
+24) what is express js?
+=> express js is webapplication framwork it is used to make a serverside application with node js.
+25) what is a calleback function?, and its syntax?
+26)  what is promis and its syntax?.lar
+ 27) what is layzi loading in angular?
+----OOPS concepts------------
+1) object oreined Prgramming structure
+2) 6 main pillars of OPPs IS :-
+   => 1)classes
+      2)Objects & methods 
+      3)inheritance    (Reusability)
+      4)polymorphism   (Object to take Many Forms)
+      5)abstarction    (Data Hiding)
+      6)encapsulation. (Data Hiding)
+
+3) class:- Class is a collection of objects
+   access-modifier class ClassName {}
+
+4) methods:- set of code which perform a perticular task.
+   access-modifier return-type methodName(list of parameters) {}
+ 
+5) object:- object is an instance of class  
+
+https://www.youtublCtPPy9iVoejWuSHGE5JVrgpiMaAgVMEALw_wcB
+///-----MEAN Video download link
+https://www.codesikho.com/s/store/courses/description/complete-nodejs?gclid=Cj0KCQiAnL7yBRD3ARIsAJp_oLYv-fw210MtlMKZSb3djRNBfOWBflCtPPy9iVoejWuSHGE5JVrgpiMaAgVMEALw_swcB
+
+https://medium.com/@amcdnl/file-uploads-with-angular-reactive-forms-960fd0b34cb5
+https://stackblitz.com/edit/angular-file-upload-component
+https://stackblitz.com/edit/angular-file-upload, props
+https://levelup.gitconnected.com/reactive-form-validation-with-smooth-scrolling-to-errors-in-angular-8-57fa63b2689d
+
+http://27.109.9.122:3000/wc.rizwan/reactive-from/commits/master
+email,password
+
+Please read observable and subjectbehaviour and display image on top bar onchange image
+
+https://www.youtube.com/watch?v=FP7Hs8lTy1k
+https://github.com/bloodymind/angular-material-dashboard
+
+---- ngrx -----
+createAction, createReducer, storeModule, props
+
+ng generate module customers --route customers --module app.module   it will generate module file
+ng g c to generate component
+
+
+ng generate service hero
+
+ng generate module <name>
+ng generate service <name>
+
+starting from the auth guards didn't used AuthGuards
+app-token.service.ts getToken(), saveToken()
