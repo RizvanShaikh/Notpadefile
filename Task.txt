@@ -39,14 +39,15 @@ M2_SUBJECT_MANAGEMENT from the Node MS2
 M1_CONTACTUS_MODULE FROM the Angular
 M1_CONTACTUS_MODULE from the Node
 
-12May addSubQuestionOption, remove Sub Questions Options 
-13May code optinaztion and api testing
-14May code optimzation and testing in angular,changes in schema 
-15May setup angular
+12May addSubQuestionOption, remove Sub Questions Options -done time sheet 
+13May code optinaztion and api testing -done time sheet 
+14May code optimzation and testing in angular,changes in schema -done time sheet 
+15May setup angular -done time sheet 
 18May Testing API from the angular side 4 remainng - done time sheet 
 19May timesheet remaining  - 5 hours training , 4 hourss remaining  -done time sheet 
 20May  timesheet remaining -done time sheet 
-21May timesheet remaining
+21May timesheet remaining - 5 hours training , 4 hours remaining, contact us
+22May R&D of chapter of admin panel in angular -done time sheet 
 
 https://ciphertrick.com/read-excel-files-convert-json-node-js/
 
