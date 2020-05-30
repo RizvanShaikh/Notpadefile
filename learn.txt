@@ -142,6 +142,12 @@ rizvan1994  linkedin pw
 pw:rizwanskpe1994  userName:9879804646 skype
 usrnm:8200120997 pw:rizvan1994 skype
 
+1.git init
+2.git config user.name "someone"
+3.git config user.email "someone@someplace.com"
+4.git add *
+5.git commit -m "some init msg"
+
 https://github.com/jerga99/book-with-me-ng
                           /bwm-ng or bwm-react
 
