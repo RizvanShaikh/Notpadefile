@@ -1,0 +1,14 @@
+
+What is CodeIgniter?
+CodeIgniter is a PHP MVC framework used for developing web applications rapidly. CodeIgniter provides out of the box libraries for connecting to the database
+and performing various operations like sending emails, uploading files, managing sessions, etc.
+
+http://localhost/bonfire_v4/
+http://localhost/phpmyadmin/db_structure.php?db=bonfire_v4
+
+remove .htacces file from the public folder and past it on Bonfire/.htaccess
+then create data table name bonfire_v4 and import data file
+
+postman
+username : rizwan@webcluesifotech.com
+password : rizwan1994   

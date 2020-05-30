@@ -187,3 +187,7 @@ http://27.109.9.122:3000/user/login?redirect_to=
 url: 27.109.9.122:3000
 user: wc.rizwan
 password: rizwan#123
+
+postman credential           
+username : rizwan@webcluesifotech.com
+password : rizwan1994   
