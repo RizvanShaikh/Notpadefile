@@ -48,6 +48,12 @@ M1_CONTACTUS_MODULE from the Node
 20May  timesheet remaining -done time sheet 
 21May timesheet remaining - 5 hours training , 4 hours remaining, contact us
 22May R&D of chapter of admin panel in angular -done time sheet 
+25  Eid leave
+26  php  -done time sheet 
+27 May time sheet remaining -done time sheet 
+28 sick leave
+29 May time sheet remaining -done time sheet 
+1
 
 https://ciphertrick.com/read-excel-files-convert-json-node-js/
 
@@ -72,6 +78,4 @@ webclues.superadmn@gmail.com
 Prakash@123
 
 http://localhost:4200/admin/contact-us-management/list
-
-27 May time sheet remaining
-29 May time sheet remaining
+  

@@ -143,8 +143,8 @@ pw:rizwanskpe1994  userName:9879804646 skype
 usrnm:8200120997 pw:rizvan1994 skype
 
 1.git init
-2.git config user.name "someone"
-3.git config user.email "someone@someplace.com"
+2.git config user.name "RizvanShaikh"
+3.git config user.email "rizwanshaikh8085@gmail.com"
 4.git add *
 5.git commit -m "some init msg"
 

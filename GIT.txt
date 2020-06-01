@@ -25,3 +25,9 @@ so you’ll stash the changes. To push a new stash onto your stack, run git stash 
 hub stuff
 rizwan@webcluesinfotech.com
 rizvan1994 or rizwan1994
+
+1.git init
+2.git config user.name "RizvanShaikh"
+3.git config user.email "rizwanshaikh8085@gmail.com.com"
+4.git add *
+5.git commit -m "some init msg"
