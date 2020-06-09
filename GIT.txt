@@ -28,6 +28,6 @@ rizvan1994 or rizwan1994
 
 1.git init
 2.git config user.name "RizvanShaikh"
-3.git config user.email "rizwanshaikh8085@gmail.com.com"
+3.git config user.email "rizwanshaikh8085@gmail.com"
 4.git add *
 5.git commit -m "some init msg"

@@ -53,9 +53,16 @@ M1_CONTACTUS_MODULE from the Node
 27 May time sheet remaining -done time sheet 
 28 sick leave
 29 May time sheet remaining -done time sheet 
-1
+1  jun timesheet remaining
+2  country, city timesheet remaining
+3  role
+4  serviceType, permission
+5  xml to json converter
+8  nothing
+9  template module
 
 https://ciphertrick.com/read-excel-files-convert-json-node-js/
+https://attacomsian.com/blog/nodejs-convert-xml-to-json#
 
 Works
    students                               not Working
@@ -64,14 +71,6 @@ status changes student
 view details
 delete student
 Search by filter
-
-parent
-dlete
-update
-
-school 
-add 
-delete
 
 localhost:4200/admin
 webclues.superadmn@gmail.com

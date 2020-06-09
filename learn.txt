@@ -188,12 +188,24 @@ npm i randomstring --save
 npm i sha256 --save //  randome number genrator
 npm i nodemailer --save
 
+https://ciphertrick.com/read-excel-files-convert-json-node-js/
+https://attacomsian.com/blog/nodejs-convert-xml-to-json#
+https://www.twilio.com/blog/5-ways-to-make-http-requests-in-node-js-using-async-await
+
 gogs login page
 http://27.109.9.122:3000/user/login?redirect_to=
 url: 27.109.9.122:3000
 user: wc.rizwan
 password: rizwan#123
-
+1.git init
+2.git config user.name "wc.rizwan"
+3.git config user.email "rizwan@webcluesifotech.com"
+4.git add *
+5.git commit -m "some init msg"
+open ride
+http://27.109.9.122:3000/NodeJS/open_ride_technology_ms1.git
+redis
+https://github.com/microsoftarchive/redis
 postman credential           
 username : rizwan@webcluesifotech.com
 password : rizwan1994   
