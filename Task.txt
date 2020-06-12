@@ -39,12 +39,20 @@ M2_SUBJECT_MANAGEMENT from the Node MS2
 M1_CONTACTUS_MODULE FROM the Angular
 M1_CONTACTUS_MODULE from the Node
 
+M1_SERVICE_TYPE_MODULE  city module
+M1_ROLE_MODULE
+M1_PERMISSION_MODULE
+M1_TEMPLATE_MODULE
+M1_DRIVER_BUSINESS_CATEGORY_MODULE
+M1_REASON_MODULE
+M1_COUNTRY_MODULE
+
 12May addSubQuestionOption, remove Sub Questions Options -done time sheet 
 13May code optinaztion and api testing -done time sheet 
 14May code optimzation and testing in angular,changes in schema -done time sheet 
 15May setup angular -done time sheet 
 18May Testing API from the angular side 4 remainng - done time sheet 
-19May timesheet remaining  - 5 hours training , 4 hourss remaining  -done time sheet 
+19May timesheet remaining  - 5 hours training , 4 hours remaining  -done time sheet 
 20May  timesheet remaining -done time sheet 
 21May timesheet remaining - 5 hours training , 4 hours remaining, contact us
 22May R&D of chapter of admin panel in angular -done time sheet 
@@ -53,13 +61,16 @@ M1_CONTACTUS_MODULE from the Node
 27 May time sheet remaining -done time sheet 
 28 sick leave
 29 May time sheet remaining -done time sheet 
-1  jun timesheet remaining
-2  country, city timesheet remaining
-3  role
-4  serviceType, permission
-5  xml to json converter
-8  nothing
-9  template module
+1  jun timesheet remaining - done time sheet 
+2  country, city timesheet remaining - 4 learning done time sheet 
+3  role  - 4 learning done time sheet 
+4  serviceType, permission - 4 learning done time sheet 
+5  xml to json converter - done time sheet
+8  nothing  - done time sheet
+9  template module, service operator module
+10 driver business category, reason module
+11 setup of ride project in angular,country module Angular side
+12 country module Angular side
 
 https://ciphertrick.com/read-excel-files-convert-json-node-js/
 https://attacomsian.com/blog/nodejs-convert-xml-to-json#

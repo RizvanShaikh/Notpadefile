@@ -124,3 +124,21 @@ ng generate service <name>
 
 starting from the auth guards didn't used AuthGuards
 app-token.service.ts getToken(), saveToken()
+
+file:///C:/Users/Rizwan/AppData/Roaming/npm/ng.ps1
+
+
+ { title: 'Country Name', data: 'country_name' },
+        1  { title: 'Country ISD', data: 'country_isd' },
+        2 { title: 'Country ISO', data: 'country_iso' },
+        3 { title: 'Country Code', data: 'country_code' },
+        4  { title: 'Country Phone Format', data: 'country_phoneFormat' },
+        5 { title: 'Country Phone Hint', data: 'country_phoneHint' },
+        6  { title: 'Country Currency', data: 'country_currency' },
+         7 { title: 'Country Latitude', data: 'country_lat' },
+          8{ title: 'Country Longitude', data: 'country_long' },
+          9{ title: 'Rider Direction API', data: 'country_riderDirectionAPILimit' },
+          10{ title: 'Driver Direction API', data: 'country_driverDirectionAPILimit' },
+       11   { title: 'Status', data: 'country_status' },
+       12   { title: 'Created Date', data: 'country_createdOn' },
+          { title: 'Actions' },
