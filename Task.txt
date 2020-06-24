@@ -61,16 +61,25 @@ M1_COUNTRY_MODULE
 27 May time sheet remaining -done time sheet 
 28 sick leave
 29 May time sheet remaining -done time sheet 
+ --------form here time sheet is remaining for ride project-------
 1  jun timesheet remaining - done time sheet 
-2  country, city timesheet remaining - 4 learning done time sheet 
+2  country, city timesheet remaining - 5 learning done time sheet 
 3  role  - 4 learning done time sheet 
-4  serviceType, permission - 4 learning done time sheet 
+4  serviceType, permission - 5 learning done time sheet 
 5  xml to json converter - done time sheet
 8  nothing  - done time sheet
-9  template module, service operator module
-10 driver business category, reason module
-11 setup of ride project in angular,country module Angular side
-12 country module Angular side
+9  template module, service operator module - 5 learning done time sheet 
+10 driver business category, reason module - 5 learning done time sheet 
+11 setup of ride project in angular,country module Angular side - done time sheet
+12 country module Angular side - 5 learning done time sheet 
+15 bug fixing - done time sheet
+16 city module - 5 learning done time sheet 
+17 service type module - 5 learning done time sheet 
+18 bugs in service type module - 5 learning done time sheet 
+19 service opertor module issue - 5 learning done time sheet 
+22 service operator get list nodeside
+23 service operator module
+
 
 https://ciphertrick.com/read-excel-files-convert-json-node-js/
 https://attacomsian.com/blog/nodejs-convert-xml-to-json#
@@ -89,3 +98,12 @@ Prakash@123
 
 http://localhost:4200/admin/contact-us-management/list
   
+git checkout M1_city_module
+git pull origin M1
+git checkout M1
+git pull origin M1
+git checkout M1_city_module
+git merge M1
+git add .
+git commit -m ""
+git push origin M1_city_module
