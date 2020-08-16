@@ -12,3 +12,18 @@ then create data table name bonfire_v4 and import data file
 postman
 username : rizwan@webcluesifotech.com
 password : rizwan1994   
+
+
+
+  ------Ride project  Angular-----
+only Help Topic List in select list Help Management  - single
+only county List in in select list City Management - single
+
+only select Country in array  Promocode Manangement "ng2muliselect" - multiple
+
+date and check box  Promocode Manangement
+
+country wise city list Fare Calculation Management & Service Operator
+
+stringIfy Image in service Type
+ 

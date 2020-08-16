@@ -152,6 +152,8 @@ https://github.com/jerga99/book-with-me-ng
                           /bwm-ng or bwm-react
 
 //------------------------------
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
 
 git  comands:-
 
@@ -209,3 +211,9 @@ https://github.com/microsoftarchive/redis
 postman credential           
 username : rizwan@webcluesifotech.com
 password : rizwan1994   
+
+postman
+username : rizwan@webcluesifotech.com
+password : rizwan1994   
+
+

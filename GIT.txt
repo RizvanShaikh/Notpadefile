@@ -31,3 +31,6 @@ rizvan1994 or rizwan1994
 3.git config user.email "rizwanshaikh8085@gmail.com"
 4.git add *
 5.git commit -m "some init msg"
+
+git config user.name "wc.rizwan"
+3.git config user.email "rizwan@webcluesifotech.com"

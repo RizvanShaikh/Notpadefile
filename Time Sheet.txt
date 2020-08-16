@@ -1,0 +1,130 @@
+	school management 
+demo with nodejs+angluar 
+-> registration student/teacher
+-> Login
+-> forgot password
+
+ng generate module customers --route customers --module app.module   it will generate module file
+ng g c to generate component
+
+
+git clone http://27.109.9.122:3000/wc.baldevparmar/school_management_demo_rizwan.git|
+git checkout rizwan
+
+
+npm install
+
+git add .
+
+git commit -m "Your functionality short message"
+
+git push -u HEAD or git push origin rizwan
+
+url: 27.109.9.122:3000
+user: wc.rizwan
+password: rizwan#123
+
+git clone
+
+git checkout M1
+npm install --save
+git checkout -b M1_API_CMS
+dbUrl="mongodb://root:J4TITUwCItYX@18.188.161.74:27017/"
+dbUrl="mongodb://localhost:27017/"
+
+M1_API_CHAPTER for topic,question and video
+M1_SUBJECT_MANAGEMENT from angular side
+M2_SUBJECT_MANAGEMENT from the Node MS2
+
+M1_CONTACTUS_MODULE FROM the Angular
+M1_CONTACTUS_MODULE from the Node
+
+M1_SERVICE_TYPE_MODULE  city module
+M1_ROLE_MODULE
+M1_PERMISSION_MODULE
+M1_TEMPLATE_MODULE
+M1_DRIVER_BUSINESS_CATEGORY_MODULE
+M1_REASON_MODULE
+M1_COUNTRY_MODULE
+
+12May addSubQuestionOption, remove Sub Questions Options -done time sheet 
+13May code optinaztion and api testing -done time sheet 
+14May code optimzation and testing in angular,changes in schema -done time sheet 
+15May setup angular -done time sheet 
+18May Testing API from the angular side 4 remainng - done time sheet 
+19May timesheet remaining  - 5 hours training , 4 hours remaining  -done time sheet 
+20May  timesheet remaining -done time sheet 
+21May timesheet remaining - 5 hours training , 4 hours remaining, contact us
+22May R&D of chapter of admin panel in angular -done time sheet 
+25  Eid leave
+26  php  -done time sheet 
+27 May time sheet remaining -done time sheet 
+28 sick leave
+29 May time sheet remaining -done time sheet 
+ --------form here time sheet is remaining for ride project-------
+------jun---------
+1  jun timesheet remaining - done time sheet 
+2  country, city timesheet remaining - 5 learning done time sheet , 4added
+3  role  - 4 learning done time sheet , 5 aded
+4  serviceType, permission - 5 learning done time sheet , 4 added
+5  xml to json converter - done time sheet
+8  nothing  - done time sheet
+9  template module, service operator module - 5 learning done time sheet , 4 added
+10 driver business category, reason module - 5 learning done time sheet , 4 added
+11 setup of ride project in angular,country module Angular side - done time sheet 
+12 country module Angular side - 5 learning done time sheet ,4 added
+15 bug fixing - done time sheet
+16 city module - 5 learning done time sheet , 4 added
+17 service type module - 5 learning done time sheet ,4 added
+18 bugs in service type module - 5 learning done time sheet , 4 added
+19 service opertor module issue - 5 learning done time sheet , 4 added
+22 service operator get list nodeside - 5 learning done time sheet . 4 added
+23 service operator module - 5 learning done time sheet , 4 added
+24 template module - done time sheet
+25 email template  -done time sheet
+26 notification template/ SMS template
+29 notification template/ SMS template country wise city
+30 cms module with ckeditor
+------july---------
+1/7/2020 operator module   -done timesheeet
+2        forgot password   -done timesheeet
+3        reset password  -done timesheeet 
+6        update password / logout  M1_UPDATE_PASSWORD  -done timesheeet  
+7     M1_DRIVER_MANAGEMENT  -done timesheeet 
+8    driver mANAGEment  -done timesheeet 
+9                        -done timesheeet 
+10   rider profile   -done timesheeet 
+13   ride management -done timesheeet 
+14  vehicle detail, bank detail, Driver Address fetch & update Done  <--- Angular / Side Driver address API created for update detail <--- Node Side  -done timesheeet 
+15   service Operator Module -done timesheeet 
+16   serviceOperator / help topic -done timesheeet 
+17   help management -done timesheeet 
+20   fare calclulation service node side, made route for get helptopic lits in help topic module,  changes in help management puted ckeditor, validation 
+     displying help topic lists in angular side and making lits for time frame -done timesheeet  
+21   making time frame module, fare calclulation module in angular side - -done timesheeet  
+22   applying "getoperatorList" and "getTimeFrameList" from the backend using aggregate query, 
+     setup for angular and putting module in angular of fare calculation and time frame 
+23   grid changes in angular in all modules solving bugs
+24   grid changes in angular in all modules, and add active in active fields
+27  fare calculation. service operator, template Management
+28  worked on template and fare calculation
+
+https://ciphertrick.com/read-excel-files-convert-json-node-js/
+https://attacomsian.com/blog/nodejs-convert-xml-to-json#
+
+localhost:4200/admin
+webclues.superadmn@gmail.com
+Prakash@123
+
+http://localhost:4200/admin/contact-us-management/list
+  
+git checkout M1_city_module
+git pull origin M1
+git checkout M1
+git pull origin M1
+git checkout M1_city_module
+git merge M1
+git add .
+git commit -m ""
+git push origin M1_city_module
+
