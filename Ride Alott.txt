@@ -1,0 +1,37 @@
+16/09/2020 - 16 september
+in Site User 
+Admin Management
+add admin => add me can be added but email functionality doesn't work when admin gets add
+update detail => not working
+get admin by id => working
+change status => working
+delete admin => working
+
+16/09/2020
+16- setup for ride alott in angular and node side
+    started testing in 1)login 2)forgot password 3)reset password 4)servicetype 5)city 6)carbrand 7)model 8)badge 9)state 10) Admin Management
+17- common code of mail for forgot password, admin register, verified
+    try to solev S3 bucket issue, delete functionality for service type => update wakhate image can't be uploaded ni error awti hati ae solve kariyo
+    city =>   country env mathi lai ne avya and add karai
+    badge => same service type jevo issue hato
+    model =>  delete functionality work nathi karti hati to aema Angular + Node Side chenges kariya
+18- by name, status and date wise filter in all modules
+    made Ammenities module CRUD operation in NodeJS + Angular Side     
+
+M1_ADMIN_FORGOT_PASSWORD
+M1_ADMIN_MANAGEMENT
+M1_ADMIN_SERVICE_TYPE_MANAGEMENT
+M1_ADMIN_CITY_MANAGEMENT
+M1_ADMIN_CAR_BRAND_MANAGEMENT
+M1_ADMIN_MODEL_MANAGEMENT
+M1_ADMIN_BADGE_MANAGEMENT
+M1_ADMIN_AMMENITIES_MANAGEMENT
+
+
+take refernece car brand for status search
+take car brand for by name search in service type
+
+
+
+"Name by search"   ".title" take refernece "city module & service type" in "getlist" node side  
+for single name take refernece "brand management"

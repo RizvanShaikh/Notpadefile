@@ -34,3 +34,9 @@ rizvan1994 or rizwan1994
 
 git config user.name "wc.rizwan"
 3.git config user.email "rizwan@webcluesifotech.com"
+
+
+
+If you want to rename the current branch, you can do:
+
+git branch -m <newname>

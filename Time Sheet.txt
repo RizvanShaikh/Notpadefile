@@ -63,18 +63,19 @@ M1_COUNTRY_MODULE
 29 May time sheet remaining -done time sheet 
  --------form here time sheet is remaining for ride project-------
 ------jun---------
+01/06/2020
 1  jun timesheet remaining - done time sheet 
-2  country, city timesheet remaining - 5 learning done time sheet , 4added
+2  country, city timesheet remaining - 5 learning done time sheet , 4added --pt
 3  role  - 4 learning done time sheet , 5 aded
-4  serviceType, permission - 5 learning done time sheet , 4 added
+4  serviceType, permission - 5 learning done time sheet , 4 added --pt
 5  xml to json converter - done time sheet
 8  nothing  - done time sheet
 9  template module, service operator module - 5 learning done time sheet , 4 added
 10 driver business category, reason module - 5 learning done time sheet , 4 added
-11 setup of ride project in angular,country module Angular side - done time sheet 
+11 setup of ride project in angular,country module Angular side - done time sheet  --pt
 12 country module Angular side - 5 learning done time sheet ,4 added
 15 bug fixing - done time sheet
-16 city module - 5 learning done time sheet , 4 added
+16 city module - 5 learning done time sheet , 4 added --pt
 17 service type module - 5 learning done time sheet ,4 added
 18 bugs in service type module - 5 learning done time sheet , 4 added
 19 service opertor module issue - 5 learning done time sheet , 4 added
@@ -95,19 +96,19 @@ M1_COUNTRY_MODULE
 9                        -done timesheeet 
 10   rider profile   -done timesheeet 
 13   ride management -done timesheeet 
-14  vehicle detail, bank detail, Driver Address fetch & update Done  <--- Angular / Side Driver address API created for update detail <--- Node Side  -done timesheeet 
-15   service Operator Module -done timesheeet 
+14   vehicle detail, bank detail, Driver Address fetch & update Done  <--- Angular / Side Driver address API created for update detail <--- Node Side  -done timesheeet 
+15   service Operator Module -done timesheeet  --pt
 16   serviceOperator / help topic -done timesheeet 
 17   help management -done timesheeet 
 20   fare calclulation service node side, made route for get helptopic lits in help topic module,  changes in help management puted ckeditor, validation 
      displying help topic lists in angular side and making lits for time frame -done timesheeet  
 21   making time frame module, fare calclulation module in angular side - -done timesheeet  
 22   applying "getoperatorList" and "getTimeFrameList" from the backend using aggregate query, 
-     setup for angular and putting module in angular of fare calculation and time frame 
+     setup for angular and putting module in angular of fare calculation and time frame --pt
 23   grid changes in angular in all modules solving bugs
 24   grid changes in angular in all modules, and add active in active fields
-27  fare calculation. service operator, template Management
-28  worked on template and fare calculation
+27  fare calculation. service operator, template Management  --- pt
+28  worked on template and fare calculation  ---pt
 
 https://ciphertrick.com/read-excel-files-convert-json-node-js/
 https://attacomsian.com/blog/nodejs-convert-xml-to-json#

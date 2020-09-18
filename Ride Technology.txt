@@ -13,9 +13,12 @@ postman
 username : rizwan@webcluesifotech.com
 password : rizwan1994   
 
+http://27.109.9.122:3000/NodeJS/open_ride_technology_ms1.git
+git checkout M1
+put env file and then nodemon server.js for node
 
-
-  ------Ride project  Angular-----
+http://jsonviewer.stack.hu/
+------------------------ Ride project  Angular ------------------------------------
 only Help Topic List in select list Help Management  - single
 only county List in in select list City Management - single
 
@@ -26,4 +29,162 @@ date and check box  Promocode Manangement
 country wise city list Fare Calculation Management & Service Operator
 
 stringIfy Image in service Type
+
+operator list by id in get list in fare calculation & service opertatore
+time in fare calculation
+time reasom Moule
+
+country wise city in Temaplate Module
+
+country wise city and city wise operator --- > to add service operator management
+country wise city and city wise operator --- > Fare Calculation management 
+
+country city fetch by id code in angular Driver > Address
+show hide input field, conditional validation  "Reason module" https://www.codementor.io/@jimohhadi/angular-validators-with-conditional-validation-in-reactive-forms-pj5z7gsq5
+
+select service type id by name in Promrocode 
+select HelpTopic id by name  in help 
+
+add field remove filed high demand area module
+
+user > uploadMedia ==> node side 
+
+servicetype for Leng En agregate query
+
+change detect fot table in Complaint Module
+
+additional cause for key in database is defferent
+admin > operator > createOperatorProfile
+
+for that if email and phone number is same in data base and user entering same email and phone number   
+admin > operator > createOperatorProfile
+
+take refernece car brand for status search
+take car brand for by name search in service type
+
+"Name by search"   ".title" take refernece "city module & service type" in "getlist" node side  
+for single name take refernece "brand management"
+
+driver vehilce info
+image update 
+onClick() {
+		console.log("-----admin---profile---")
+		this.router.navigate(['profile']);	
+	}
+routerLink="/forgot-password"  routerLink="/reset-password"
+{{myForm.controls.myEmailField.errors| json}}
+--------------------------------------------------------------------------------------
+
+webclues.superadmn@gmail.com
+test@123
+http://localhost:13001/api/admin/update/5eec988efef76613a0f4d40e
+forgot_link="http://localhost:4200/#/reset-password/"
+image
+service type 
+
+[ngModelOptions]="{standalone: true}"
+ <div class="col-lg-6">
+                        <div class="col-lg-6">
+                            <label for="example-text-input" class="col-form-label">
+                                {{'COUNTRY.LABEL.COUNTRY_STATUS' | translate}}*
+                            </label>
+                        </div>
+                        <!-- country_status -->
+                        <div class="col-lg-12">
+                            <select class="form-control m-input" id="specific" formControlName="country_status"
+                                [ngClass]="{ 'is-invalid': submitted && addEditCountryForm.controls.country_status.errors }">
+                                <option value="{{'COUNTRY.PLACEHOLDERS.ACTIVE' | translate}}">{{'COUNTRY.LABEL.ACTIVE' | translate }}</option>
+                                <option value="{{'COUNTRY.PLACEHOLDERS.INACTIVE' | translate}}">{{'COUNTRY.LABEL.INACTIVE' | translate }}</option>
+                            </select>
+                            <div *ngIf="submitted && addEditCountryForm.controls.country_status.errors"
+                                class="form-control-feedback" style="color: red">
+                                <p *ngIf="submitted && addEditCountryForm.controls.country_status.errors?.required">
+                                    {{'COUNTRY.VALIDATION.FIELD_REQUIRED' | translate }}
+                                </p>
+                            </div>
+                        </div>
+</div>
+
+country_status: ["ACTIVE", []],
+ <input type="checkbox" [id]="childPermission._id" (change)="onChangePermission($event)"
+                                        [value]="childPermission._id"> 
+
+ template_isCountrySpecific: ["", [Validators.required]],
  
+
+/**for get Time Frame details */
+function getTimeFrame(req, res) {
+    let aggQuery = [{
+        $project:
+        {
+            // timeFrame_timeType: {
+            //     "$filter": {
+            //         "input": "$timeFrame_timeType",
+            //         "as": "timeFrame_timeType",
+            //         "cond": {
+            //             $eq: ["$$timeFrame_timeType", 'EN']
+            //         }
+            //     }
+            // },
+              timeFrame_timeType:  "$timeFrame_timeType",
+        }
+    }, { '$unwind': '$timeFrame_timeType' }, { $project: { _id: 1, timeFrame_timeType: '$timeFrame_timeType'} }];
+
+    return dao.getTimeFrameList(aggQuery).then((result) => {
+        if (result) {
+            return result
+        }
+    })
+}
+
+ app.use(function (req, res, next) {
+        console.log(req.originalUrl,'req.path 66');
+        next();
+    });
+
+
+type: mongoose.Types.ObjectId 
+
+{{'ADMIN.LABEL.FIRSTNAME' | translate }}
+
+/**for get Operator details */
+function getOperatorList(req, res) {
+    let aggQuery = [{
+        $project: {
+            operatorName: "$user_operatorInfo.operatorName",
+        }
+    }];
+
+    return operatorDao.getOperatorList(aggQuery).then((result) => {
+        if (result) {
+            return result
+        }
+    })
+}
+
+=============================
+ reason_name: [{
+        _id: false,
+        lang: { type: String, required: true },
+        title: { type: String, required: true }
+    }],
+
+ let aggQuery = [{
+        $project:
+        {
+            reason_name: {
+                "$filter": {
+                    "input": "$reason_name",
+                    "as": "reason_name",
+                    "cond": {
+                        $eq: ["$$reason_name.lang", req.params.lang]
+                    }
+                }
+
+            }
+        }
+    }, { '$unwind': '$reason_name' }, { $project: { _id: 1, reason_name: '$reason_name.title' } }];
+
+
+
+model done
