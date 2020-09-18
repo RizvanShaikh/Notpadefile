@@ -7,6 +7,10 @@ get admin by id => working
 change status => working
 delete admin => working
 
+postman
+username : rizwan@webcluesifotech.com
+password : rizwan1994   
+
 16/09/2020
 16- setup for ride alott in angular and node side
     started testing in 1)login 2)forgot password 3)reset password 4)servicetype 5)city 6)carbrand 7)model 8)badge 9)state 10) Admin Management

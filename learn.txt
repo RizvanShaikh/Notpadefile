@@ -136,7 +136,7 @@ icici: 9446
 kotak: 944646
 
 github & gist 
-user nAME: RizvanShaikh
+user name: RizvanShaikh
 pw: rizvangithub1994
 rizvan1994  linkedin pw
 pw:rizwanskpe1994  userName:9879804646 skype
