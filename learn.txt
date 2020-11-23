@@ -216,5 +216,14 @@ postman
 username : rizwan@webcluesifotech.com
 password : rizwan1994   
 
+Amazon credential
+yo tbe: https://www.youtube.com/watch?v=uYnerMsxIVE
+amazon page for copan: https://www.amazon.in/gp/css/gc/payment/ref=gc_ya_subnav_balance
+email: rizwan@webcluesinfotech.com
+pw: rizwan1994
+
 json viewer
 http://jsonviewer.stack.hu/
+
+elastic search
+https://medium.com/better-programming/integrate-elasticsearch-with-node-js-37ed7b286f1c

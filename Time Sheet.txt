@@ -129,3 +129,13 @@ git add .
 git commit -m ""
 git push origin M1_city_module
 
+For Video Editing Adobe Premeier Pro &  Adobe After Effects
+For Audio Editing Adobe Audition
+For Thumbnail Adobe Photoshop 
+For VFX  Adobe After Effects
+Color Grading Davenchi
+
+65D Canon 
+Camera GH4 Panasonic
+Mic Boya M1  	
+

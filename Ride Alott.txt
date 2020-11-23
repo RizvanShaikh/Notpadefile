@@ -1,26 +1,125 @@
-16/09/2020 - 16 september
-in Site User 
-Admin Management
-add admin => add me can be added but email functionality doesn't work when admin gets add
-update detail => not working
-get admin by id => working
-change status => working
-delete admin => working
+16/09/2020 - 16 september STARTED WORKING ON "RIDE ALOTT TRANSPOTATION LLC"
 
 postman
 username : rizwan@webcluesifotech.com
 password : rizwan1994   
 
+server link LIVE
+URL: http://13.233.92.186:15001/Admin/#/login
+
+Admin user: webclues.superadmn@gmail.com
+Password: test@123
+
+ride alott bug sheet
+https://docs.google.com/spreadsheets/d/1DMJrMqTNbARysp3HsC1HUDBz2DqUT4zt7r4-Ogf1rKg/edit#gid=490875138
+========================Ride Alott==========================
+
+take refernece car brand for status search
+take car brand for by name search in ---> Service Type
+
+"Name by search"   ".title" take refernece ---> City Module & Service Type in "getlist" node side  
+for single name take refernece ---> Brand Management
+
+Brand wise model, model wise Trim ---> Driver Management > Add vehicle
+
+get years list drive > vehicle add edit ---> Driver Management
+ 
+ user_driverInfo.driverVehicleInfo: [{
+            carIconPublicId: { type: String },
+            registrationNoPublicId: { type: String },
+            vehicleImages: [{
+                vehiclePublicId: { type: String },
+                vehicleImage: { type: String },
+            },],
+            verifiedStatus: {
+                type: Number,
+                enum: [
+                    constants.DRIVER_VERIFIED_STATUS.VARIFIED,
+                ]},
+            ammenities: [{
+                type: mongoose.Types.ObjectId, ref: constants.DB_MODEL_REF.AMMENITIES
+            }],
+            insuranceDocumentImage: { type: String },
+            isDefault: { type: Number, default: 0 },
+        }],
+to add driver's vehicle info, "updateVehicleInfo/:id"
+to upadate vehicle pass vehicle id in req.body in postman "updateVehicleInfo/:id"
+to get driver's vehicle info list, visit "getVehicleInfoList/:id"  driver id
+to get vehicle list by id "getVehicleInfoById/:id" params "driver id" & req.body "vehicle id"
+to remove vehicle list from the aray  "removeVehicleInfo/:id" params "driver id" & req.body "vehicle id"
+
+first letter capital ---> user > rider service.js Node side
+
+to fetch all ammentites ---> service operator
+date picker & check box visit --> promocode management
+web default language ---> promocode management
+
+to pus in [] data from the node side visit --> "/sharedCoin" user > userRout.js file node side
+============================================================
 16/09/2020
 16- setup for ride alott in angular and node side
     started testing in 1)login 2)forgot password 3)reset password 4)servicetype 5)city 6)carbrand 7)model 8)badge 9)state 10) Admin Management
-17- common code of mail for forgot password, admin register, verified
-    try to solev S3 bucket issue, delete functionality for service type => update wakhate image can't be uploaded ni error awti hati ae solve kariyo
-    city =>   country env mathi lai ne avya and add karai
+17- common code of mail for forgot password, admin register, verified - 30min
+    try to solve S3 bucket issue, delete functionality for 
+    service type => update wakhate image can't be uploaded ni error awti hati ae solve kariyo - 10:45- 11:30am - 45min
+    city  => country env mathi lai ne avya and add karai  - 15min
     badge => same service type jevo issue hato
     model =>  delete functionality work nathi karti hati to aema Angular + Node Side chenges kariya
 18- by name, status and date wise filter in all modules
-    made Ammenities module CRUD operation in NodeJS + Angular Side     
+    made Ammenities module CRUD operation in NodeJS + Angular Side - total 5hours  
+21- changes in Operator Management- 10-12pm
+    made get All State list API, made get All Ammenities API,checked & tested City, Service Type, Car Brand, Model, Badge, State, Ammenities   
+    in Driver Management image upload & varified status change issue resolved 4pam - 6pam
+22- new user mail for with emai & password so user can logi with it <--- M1_ADMIN_FORGOT_PASSWORD
+    driver management > bank details   added Account Type & Routing Number fileds i n Node side <---  M1_ADMIN_DRIVER_MANAGEMENT
+    driver management  > Driving Licence   State issue solved & added Licence Number, expired date Node and Angular side  <---  M1_ADMIN_DRIVER_MANAGEMENT
+    changed name from ammenities to amenities <---M1_ADMIN_AMMENITIES_MANAGEMENT
+    tested City, Service Type, Car Brand, Model, Badge, State, Amenities & Operator Manangement nmodule in live
+23- making privacy policy and term & condition component in front side<--- M1_PRIVACY_POLICY_TERM_CONDITION_MANAGEMENT
+    made modelList Api using aggregate query 
+    made Trim API in Node side & made CRUD Operation of it   <---  M1_ADMIN_TRIM_MANAGEMENT
+24- 
+25- Making API for Add, Edit Functionality for Vehicle Deatil in Node
+28-  search by name filter in driver management, Applied Css for table,Removed param :- vehicleImage, user_vehicleImageId, numberPlate, carType
+     Added New Param :- modelId, trimId, amenities[], insurance_image, inspection_image , isVehicleDefault, added date picker and resolved state validation error 
+     Account type added with select done
+29- worked on add vehicle and update functionality in Node side & anglar side
+30- solving bugs in ride alott project
+1- solving bugs in ride alott project
+2- changes in Driver Management & Rider Management, solving bugs solving bugs in ride alott project
+5- solving bugs solving bugs in ride alott project
+6- making driver,ride and operator Verified & Rejected Mail functionality
+7- making vehicle Verified & Rejected Mail functionality, proper commenting  First letter capital functionality
+8- solving vgs in ride tech 
+9- solving vgs in ride tech
+12- Operator side changes Added Operator Commission, Invoice Detail Tab and changes in personal profile & get list in Angular and Node side as well like Ride Tech 
+    admin image validation ---> admin Management 
+     Badge image validation ----> Badge Management 
+     statik messages removed in each and every module  added hors inzooho
+13- statik messages removed in each and every module, made Google Sheet for Driver  
+14-  made Google Sheet For Rider Remaning API, implimented Service Operator, Reason Management & Temaplate Management, made reason reason by name filter working
+     applied grid for  service operator, apllied side bar tab like Ride Tech 
+15- Promocode Management Implemented & did changed like ride tech, CMS fetch data & update issue solved, Tested all Modules in live server
+    help topic, help,  modified, template  modified date filter issue resolved
+16- changed in Rider Regiter Email 
+    Implimented Email Notification and SMS module  in Angular & Node side
+19-  registration mail when Admin is registered with his credential For Admin, registration mail when Operator is registered with his credential For Operator
+     operator's driver list implemented -Done 
+20-  solving bugs ib Ride alott
+21- implemented Fare Calculation Management, implemented High Demand Area Management, worked on validation for Fare Calculation 
+22- 
+23- solving bugs
+26- Made Google sheet of Completed & Remaining Modules, Implementing forgot password mail functionality, Rider registraion mail & contact us mail
+27- Made Driver & Rider side Registartion Mail
+    User side Driver Register mail 
+    Admin Side in Driver in update Address Bank Details, Citizen Ship, License Details & Other Documents Mail Functionality
+28, 29 - leave
+30 - Operator Management changes
+3, 4/11/2020 - leave
+5, 6, 9, 10, 11, 12-- Solving Bugs of Ride Alott & Did Changes in Admin Panel
+13, 14, 15, 16, 17  -Diwali leave
+18, 19, 20 - Solving Bugs of Ride Alott & Did Changes in Admin Panel
+    
 
 M1_ADMIN_FORGOT_PASSWORD
 M1_ADMIN_MANAGEMENT
@@ -30,12 +129,334 @@ M1_ADMIN_CAR_BRAND_MANAGEMENT
 M1_ADMIN_MODEL_MANAGEMENT
 M1_ADMIN_BADGE_MANAGEMENT
 M1_ADMIN_AMMENITIES_MANAGEMENT
+M1_ADMIN_OPERATOR_MANAGEMENT
+M1_ADMIN_DRIVER_MANAGEMENT
+
+M1_PRIVACY_POLICY_TERM_CONDITION_MANAGEMENT
+M1_ADMIN_TRIM_MANAGEMENT
+M1_ADMIN_ACCOUNT_TYPE_MANAGEMENT
+M1_ADMIN_RIDER_MANAGEMENT
+
+M1_ADMIN_DRIVER_MANAGEMENT
+M1_API_RIZWAN
+M1_ADMIN_HELP_MANAGEMENT
+M1_ADMIN_REASON_MANAGEMENT
+M1_ADMIN_SERVICE_OPERATOR_MANAGEMENT
+M1_ADMIN_TEMPLATE_MANAGEMENT
+M1_ADMIN_TIME_FRAME_MANAGEMENT
+M1_ADMIN_CMS_MANAGEMENT
+M1_ADMIN_PROMOCODE_MANAGEMENT
+M1_ADMIN_EMAIL_TEMPLATE_MANAGEMENT
+M1_ADMIN_FARE_CALCUlATION_MANAGEMENT
+M1_ADMIN_HIGH_DEMAND_AREA_MANAGEMENT
+M1_ADMIN_PANEL_BUGS_RESOLVED_RIZWAN
+
+code p
+
+            rejectedReason: joi.optional() u
 
 
-take refernece car brand for status search
-take car brand for by name search in service type
+code pushed to branch M1_ADMIN_EMAIL_TEMPLATE_MANAGEMENT
+
+i am going to hospital with my Grand Father for his treatment
+sighn out for the day
+
+Today's Work
+--> changed in Rider Regiter Email 
+--> Implimented Email Notification and SMS module  in Angular & Node side
+ 
+
+updateAddress
+ if (details.user_bankDetail.verifiedStatus != '2' && details.user_bankDetail.verifiedStatus != '3') {
+                details.user_bankDetail.rejectedReason = null;
+            }
+            if (details.user_bankDetail.verifiedStatus == '2' || details.user_bankDetail.verifiedStatus == '3') {
+                let condition = 5
+                await email.sendMailTemplate(result, details, condition )
+            }
 
 
 
-"Name by search"   ".title" take refernece "city module & service type" in "getlist" node side  
-for single name take refernece "brand management"
+(change)="selectVerifiedValue($event)"
+ <div class="form-group row" *ngIf="!isVerifiedSelected">
+                            <div class="col-lg-6">
+                                <div class="col-lg-12">
+                                    <label for="example-text-input" class="col-form-label">
+                                        {{'DRIVER.LABEL.REJECTED_REASON' | translate }} *
+                                    </label>
+                                </div>
+                                <div class="col-lg-12">
+                                    <input class="form-control m-input m-login__form-input--last" 
+                                    placeholder="{{'DRIVER.PLACEHOLDERS.REJECTED_REASON' | translate}}"
+                                    type="text" formControlName="rejectedReason" [ngClass]="{ 'is-invalid': submitted2 && addDriverForm3.controls.rejectedReason.errors }">
+                                    <div *ngIf="submitted2 && addDriverForm3.controls.rejectedReason.errors" class="form-control-feedback" style="color: red">
+                                        <p *ngIf="submitted2 && addDriverForm3.controls.rejectedReason.errors?.required">
+                                            {{'DRIVER.VALIDATION.FIELD_REQUIRED' | translate }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+ </div>
+
+ // for hidindg input field when data fetched
+             if (typeof(result.user_bankDetail.rejectedReason) == "string" && typeof(result.user_bankDetail.rejectedReason) != undefined) {
+               this.isVerifiedSelected = false;
+            } else 
+            { 
+               this.isVerifiedSelected = true;
+            }
+
+
+
+
+
+
+
+
+driverDocumentVerifiedStatus: any = appConstants.DRIVER_VERIFIED_STATUS;
+     <div class="col-lg-6">
+                                <div class="col-lg-6">
+                                    <label for="example-text-input" class="col-form-label">
+                                        {{'DRIVER.LABEL.VERIFIED_STATUS' | translate}}*
+                                    </label>
+                                </div>
+                                <div class="col-lg-12">
+                                    <select class="form-control m-input"
+                                     id="verifiedStatus" 
+                                     (change)="selectVerifiedValue($event)"
+                                     formControlName="verifiedStatus"
+                                      [ngClass]="{ 'is-invalid': submitted1 && addDriverForm2.controls.verifiedStatus.errors }">
+                                        <option value="">{{'DRIVER.PLACEHOLDERS.SELECT_STATUS' | translate}}</option>
+                                        <option value="{{status.value}}" *ngFor="let status of driverDocumentVerifiedStatus | keyvalue ">
+                                            {{status.key}}
+                                        </option>
+                                    </select>
+                                    <div *ngIf="submitted4 && addDriverForm5.controls.verifiedStatus.errors" class="form-control-feedback" style="color: red">
+                                        <p *ngIf="submitted4 && addDriverForm5.controls.verifiedStatus.errors?.required">
+                                            {{'DRIVER.VALIDATION.FIELD_REQUIRED' | translate }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+// console.log("userDetails ======>",userDetails.user_firstName)
+    // let string = userDetails.user_firstName;
+    
+    // function capitalizeFirstLetter(string) {
+    //   let  capitalName = string.charAt(0).toUpperCase() + string.slice(1);
+    //   console.log("capitalName ======>",capitalName)
+      //   }
+    // userDetails.user_firstName = capitalName;
+    // console.log("userDetails.user_firstName ======>",userDetails.user_firstName)
+    //   console.log(capitalizeFirstLetter('rizwanshaikh')); 
+
+ // for hidindg input field when data fetched
+                        console.log(" typeof (reslt.vhecalInfo.rejectedReason", typeof(result.vhecalInfo.rejectedReason))
+                 if (typeof(result.vhecalInfo.rejectedReason) == "string" &&
+                            typeof(result.vhecalInfo.rejectedReason) != undefined) {
+                            this.isVerifiedSelected = false;	
+
+url: any = DEFAULT_IMAGES.ADD_PHOTO;
+this.toastr.error('you can upload only jpg,png,jpeg extension file max 4 MB');
+ this.toastr.error(this.BADGE_CONST.LABEL.NOTALLOWED_IMAGE);
+this.toastr.error('profile image is required')
+ this.toastr.error(this.BADGE_CONST.LABEL.IMAGE_REQUIRED)
+    First Name is invalid. 
+
+   {{'OPERATOR.VALIDATION.FIELD_REQUIRED' | translate }}
+  {{'OPERATOR.VALIDATION.MIN_CHARACTER' | translate }}
+ {{'OPERATOR.VALIDATION.MAX_CHARACTER' | translate }}
+ {{'OPERATOR.VALIDATION.INVALID_TITLE' | translate }}
+
+issues in ride alott
+---> Promocode Management Implemented & did changed like ride tech
+---> CMS fetch data & update issue solved
+---> Tested all Modules in live server
+---> help topic, help,  modified, template  modified date filter issue resolved
+
+
+sighn out for the day
+
+
+operator register thai che tyare "user email" "passoword"  jete user(operator) ne javo joie
+admin register thai che tyare "user email" "passoword"  ---> http://localhost:15001/api/admin/add
+operator thi login thavay tyare operator na drivers list aavu joie "Driver managemet list ma"
+"getUsersList" list API node  side from admin panel 
+
+driver ni details ma operator ne assign kari dhi dho che
+but have operator na credential thi login tayo chu to driver ni list nathi malti
+
+code push kari dhi dhu che M1_API_RIZWAN
+
+---> implemented Fare Calculation Management
+---> implemented High Demand Area Management
+---> worked on validation for Fare Calculation 
+
+U u
+
+
+common email kya kya aavse  admin side
+
+If you did not make this request, you can ignore this email and your password will remain the same.
+Thank you.
+
+
+ <td>
+     <a href="#" style="margin-right: 5px;"><img src="${constants.EMAIL_TEMPLATE_IMAGES.FACEBOOK}" alt="facebook"></a>
+     <a href="#" style="margin-right: 5px;"><img src="${constants.EMAIL_TEMPLATE_IMAGES.TWITTER}" alt="twitter"></a>
+     <a href="#" style="margin-right: 5px;"><img src="${constants.EMAIL_TEMPLATE_IMAGES.INSTAGRAM}" alt="instagram"></a>
+ </td>
+ <td style="text-align:right;">
+     <a href="#" style="margin-left: 5px;"><img src="${constants.EMAIL_TEMPLATE_IMAGES.APP_STORE}" alt="App Store"></a>
+     <a href="#"><img src="${constants.EMAIL_TEMPLATE_IMAGES.GOOGLE_PLAY}" alt="Google Play"></a>
+ </td>
+
+26-10-2020
+Made Google sheet of Completed & Remaining Modules 
+Implementing forgot password mail functionality
+rider registraion mail & contact us mail
+
+27-10-2020
+admin > driver & rider side registartion Mail
+user > driver register mail 
+admin > driver > update address bank details,  citizen ship, details, license details & other documents Mail Functionality 
+
+in "Operator Management" in Add form Implementing 
+- Operator Detail and Map Functionality 
+- Bank Details Tab
+- Operation Commisssion Tab
+- Invoice Details Tab
+
+brand, trim amenities
+sign out for the day
+
+Electricity is not Available once it comes i will be Available
+
+
+
+ <ngx-img-zoom
+                       [zoomImageSrc]="zoomImageSrc"
+                       [previewImageSrc]="url1" 
+                       [imgStyle]="'width:515px; height:515px; bottom:0;  left:0;  right:0;  top:0;  margin:0 auto; border:1px solid #dcdcdc;'" 
+                       [resultStyle]="`width:824px; height:824px; background-repeat: no-repeat; z-index: 2; position:absolute;
+                                   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+                                       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); top: 0;left: 100%;`"
+                       [lensStyle]="'width:155px; height:155px"
+                       [enableZoom] = "enableZoom"
+                       [containerStyle]=""
+                   ></ngx-img-zoom> 
+
+dr. Nita Ma'am
+2397198
+natu bhai circle
+
+Issue in Site user
+Admin Management --> in Edit "image required" need to be implemented
+other wise  add, edit, filter, sorting working
+
+Operator Managment --> filter by display name created on modified on not working
+other wise  add, edit, sorting working
+
+Rider Management -->  in Edit "image required" need to be implemented 
+filter by display name created on modified on not working
+other wise  add, edit, sorting working
+
+Driver Management -->
+"Personal Profile", "bank details"  update not working whie "Edit"
+need to add State, City list Drop down 
+
+
+help topic, Country, City & State inputfield nathi for search
+
+che Help, Time Frame, Fare calclulation, Badge, Account Type 
+
+
+--> changes in Account Type Title earlier which was showing "undefined"
+--> removed unwanted imported modules which was not in use 
+--> admin panel tested
+
+    code pushed to branch M1_API_RIZWAN 
+    Leaving for the day
+
+fare calculation for "all tab is required
+
+Done
+Drop down ui issue -->resolved
+Brand, Model, Amenities, Trim & State  Allowing to add same name more than 1 issue - resolved
+Validation issue resolved in each and every module - resolved
+reason, admin, operator, Rider & Driver  UI issUe - resolved
+
+
+  u  U   
+code pushed to branch M1_ADMIN_PANEL_BUGS_RESOLVED_RIZWAN
+
+AB-10 On admin it is showing the option for 'BRAND NAME' but there is no option on the mobile app.
+AB-12 By default it is showing Active status.
+AB-19 Details are not showing on admin which are added from the app while registration of the new user.
+
+
+AB-11, AB-17 State Issued value is showing blank, even though driver selected the value for state from the app. --> Done
+rider details can be update ---> Done
+Ab-06 Sign up - User name, Email and Mobile is already exists - Not showing proper message. ---> Done
+
+
+11-November
+AB-32 Text Ct off. ---> Done
+AB-34 Add new record - Operator details - there is not option available to select the value for CITY. ---> Done
+AB-35 Invoice the details - Enter long postal code - need to correct the error message ---> Done
+AB-26 Show proper validation messages through out the admin. --> Done
+AB-25 Allowing to add same name more than 1 time. ---> Done
+
+conty phone nmber
+Validators.pattern(validataion.alphaOnly)
+13, 16, 17 NOV showing Holiday in Calender
+b
+
+AB-01 comment, 
+AB-02 comment, 
+AB-03 comment, AB-09 In QA, 
+AB-10 Query - Driver Management  - Vehicle - On admin it is showing the option for  'BRAND NAME' but there is no option on the mobile app.
+AB-12 Driver Management - By default it is showing Active status
+AB-19  IN QA Rider user registration - Details are not showing on admin which are added from the app while registration of the new user.
+AB-31 Driver Management - Showing wrong date for 'Modified on'
+AB-33  In QA Fare Calculation Manangement - On deleting the record page contant showing loader and in console showing 'status of 404 (Not Found)'
+AB-34 Dev Comment 
+Operator Management - Add new record - Operator details - there is not option available to select the value for CITY.
+
+AB-36 comment, 
+AB-37 comment
+
+local edit state  --> Done
+Reopen
+help & help topic --> Done
+ contry --> Done
+ service type--> Done edit no
+ badge --> Done edit no  
+ reason--> Nop
+ CMS --> nop  , 
+ email, notification & SMS --> done edit remaining
+AB-25 `This ${moduleName} already exist, Please enter different state name.`,
+AB-34 , 
+AB-35 Operator Management - Invoice the details - Enter long postal code - need to correct the error message.--> done
+
+
+image zooming
+https://stackblitz.com/edit/image-zoom1?file=src%2Fapp%2Fapp.component.html
+Going For Lunch
+
+AB-12 Driver Management - By default it is showing Active status
+AB-36 After clearing the entered keyword, all the records should display back by default.
+AB-37 Search - On changing the 'status' and 'Registered Via' - it should start searching the record automatically without clicking the seach button.
+var statusChange
+
+Jeena@gmail.com
+
+shapes badha delete kari ne draw kari ye to aary ma proper push tahi che
+
+issue is shap draw karelu che edit wakahte and draw kari su to te error aape che
+
+--> Resolved Bugs
+--> worked on Image preview
+--> made sheet for complited & remaining Modules
+    
+    Sign Out for the day

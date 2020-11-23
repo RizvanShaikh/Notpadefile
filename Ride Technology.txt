@@ -18,40 +18,41 @@ git checkout M1
 put env file and then nodemon server.js for node
 
 http://jsonviewer.stack.hu/
------------------------- Ride project  Angular ------------------------------------
-only Help Topic List in select list Help Management  - single
-only county List in in select list City Management - single
+ RL: http://13.233.92.186:13001/Admin/#/login
+------------------------ Ride Tech  ------------------------------------
+only Help Topic List in select list ----> Help Management  - single
+only county List in in select list ----> City Management - single
 
-only select Country in array  Promocode Manangement "ng2muliselect" - multiple
+only select Country in array ----> Promocode Manangement "ng2muliselect" - multiple
 
-date and check box  Promocode Manangement
+date and check box ----> Promocode Manangement
 
-country wise city list Fare Calculation Management & Service Operator
+country wise city list ----> Fare Calculation Management & Service Operator
 
-stringIfy Image in service Type
+stringIfy Image in ----> Service Type
 
-operator list by id in get list in fare calculation & service opertatore
-time in fare calculation
-time reasom Moule
+operator list by id in get list in ----> fare calculation & service opertatore
+time in ---->fare calculation
+time ----> reason Module
 
-country wise city in Temaplate Module
+country wise city in Template Module
 
 country wise city and city wise operator --- > to add service operator management
 country wise city and city wise operator --- > Fare Calculation management 
 
 country city fetch by id code in angular Driver > Address
-show hide input field, conditional validation  "Reason module" https://www.codementor.io/@jimohhadi/angular-validators-with-conditional-validation-in-reactive-forms-pj5z7gsq5
+show hide input field, conditional validation  ---> "Reason module" https://www.codementor.io/@jimohhadi/angular-validators-with-conditional-validation-in-reactive-forms-pj5z7gsq5
 
-select service type id by name in Promrocode 
-select HelpTopic id by name  in help 
+select service type id by name in ----> Promrocode Management
+select HelpTopic id by name  in  ----> Help Management 
 
-add field remove filed high demand area module
+add field remove filed High Demand Area Module
 
 user > uploadMedia ==> node side 
 
-servicetype for Leng En agregate query
+for Leng En agregate query ---> servicetype
 
-change detect fot table in Complaint Module
+change detect fot table in ---> Complaint Module
 
 additional cause for key in database is defferent
 admin > operator > createOperatorProfile
@@ -63,8 +64,10 @@ take refernece car brand for status search
 take car brand for by name search in service type
 
 "Name by search"   ".title" take refernece "city module & service type" in "getlist" node side  
-for single name take refernece "brand management"
+for single name take refernece ---> "brand management"
 
+for formArray  visit ---> cancellation fee
+ 
 driver vehilce info
 image update 
 onClick() {
@@ -73,6 +76,28 @@ onClick() {
 	}
 routerLink="/forgot-password"  routerLink="/reset-password"
 {{myForm.controls.myEmailField.errors| json}}
+
+want to understand "$elemMatch" visit userService.js line 409
+"user_cardHistory.$.cardId"  line 364
+
+--> us of lodash _.sum(), _.ceil(), _.round(), _.cloneDeep(),  _.split(), _.subtract()	
+-->  $match, $sort, $project, $wind, $unwind, $filter, $in, $nin, $gte, $lt, $skip, $limit
+--> vistit ride rating  module let ratingQuery = [{
+        $match: { rideRating_toUserId: mongoose.Types.ObjectId(rideRating_toUserId) }
+    }, {
+        $group: {
+            _id: null,
+            rideRating_rating: {
+                $avg: "$rideRating_rating",
+            }
+        }
+    }];
+ if (page == 1) {
+        skip = 0;
+    } else {
+        skip = (page - 1) * constants.PER_PAGE_RECORD;
+    }
+--> understand rideRequest, rideRating, loyaltiPoint flow & tridetails API in userDriver side
 --------------------------------------------------------------------------------------
 
 webclues.superadmn@gmail.com
@@ -117,15 +142,7 @@ function getTimeFrame(req, res) {
     let aggQuery = [{
         $project:
         {
-            // timeFrame_timeType: {
-            //     "$filter": {
-            //         "input": "$timeFrame_timeType",
-            //         "as": "timeFrame_timeType",
-            //         "cond": {
-            //             $eq: ["$$timeFrame_timeType", 'EN']
-            //         }
-            //     }
-            // },
+           
               timeFrame_timeType:  "$timeFrame_timeType",
         }
     }, { '$unwind': '$timeFrame_timeType' }, { $project: { _id: 1, timeFrame_timeType: '$timeFrame_timeType'} }];
@@ -184,7 +201,17 @@ function getOperatorList(req, res) {
             }
         }
     }, { '$unwind': '$reason_name' }, { $project: { _id: 1, reason_name: '$reason_name.title' } }];
-
-
-
-model done
+=============
+color_name: { type: String, required: true },
+/** for get all colors */
+function getAllColors(req) {
+    let query = {
+        color_status: constants.STATUS.ACTIVE,
+    }
+    return dao.getAllColors(query, { color_name: 1 }).then((result) => {
+        if (!result) {
+            return 1;
+        }
+        return result;
+    })
+}

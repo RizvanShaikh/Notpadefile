@@ -1,0 +1,4 @@
+1. show dbs
+2. use "db name"
+3. show collections
+4. db.xyz(colections name).find().pretty()

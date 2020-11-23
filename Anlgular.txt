@@ -126,3 +126,6 @@ starting from the auth guards didn't used AuthGuards
 app-token.service.ts getToken(), saveToken()
 
 file:///C:/Users/Rizwan/AppData/Roaming/npm/ng.ps1
+
+the most poplar anglar qestion answer
+https://medium.com/free-code-camp/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
