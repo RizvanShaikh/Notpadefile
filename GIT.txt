@@ -45,3 +45,9 @@ usrnm:8200120997 pw:rizvan1994 skype
 
 If you want to rename the current branch, you can do:
 git branch -m <newname>
+
+to create new branch
+git checkout -b <branch name>
+
+to see all branches
+git branch -a

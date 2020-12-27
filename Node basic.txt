@@ -1,4 +1,6 @@
 1. show dbs
 2. use "db name"
 3. show collections
-4. db.xyz(colections name).find().pretty()
+4. db.xyzcolections name.find().pretty()
+   db.users.find({"user_email": "rizwan@webcluesinfotech.com"}).pretty()
+   db.users.find().pretty()

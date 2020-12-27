@@ -139,8 +139,8 @@ github & gist
 user name: RizvanShaikh
 pw: rizvangithub1994
 rizvan1994  linkedin pw
-pw:rizwanskpe1994  userName:9879804646 skype
-usrnm:8200120997 pw:rizvan1994 skype
+userName:9879804646 pw:rizwanskpe1994 -->  skype
+username:8200120997 pw:rizvan1994 --> skype company
 
 1.git init
 2.git config user.name "RizvanShaikh"
@@ -221,6 +221,12 @@ yo tbe: https://www.youtube.com/watch?v=uYnerMsxIVE
 amazon page for copan: https://www.amazon.in/gp/css/gc/payment/ref=gc_ya_subnav_balance
 email: rizwan@webcluesinfotech.com
 pw: rizwan1994
+
+shramshuvidha credential in EPFO website
+userid:  rizwanshaikh07
+passowrd: riZwan@1994
+
+101600705224
 
 json viewer
 http://jsonviewer.stack.hu/

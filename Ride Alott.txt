@@ -1,15 +1,20 @@
 16/09/2020 - 16 september STARTED WORKING ON "RIDE ALOTT TRANSPOTATION LLC"
 
+carrot
+
 postman
 username : rizwan@webcluesifotech.com
 password : rizwan1994   
 
 server link LIVE
-URL: http://13.233.92.186:15001/Admin/#/login
+URL: http://15.207.215.121:15001/Admin/#/login
 
-Admin user: webclues.superadmn@gmail.com
+ user: webclues.superadmn@gmail.com
 Password: test@123
 
+applink
+driver ---> https://projects.invisionapp.com/share/5FYBHAA8QET#/screens/427169466?browse
+rider ---> https://projects.invisionapp.com/share/JFYBGWU5WA2#/screens/427170177?browse
 ride alott bug sheet
 https://docs.google.com/spreadsheets/d/1DMJrMqTNbARysp3HsC1HUDBz2DqUT4zt7r4-Ogf1rKg/edit#gid=490875138
 ========================Ride Alott==========================
@@ -54,7 +59,11 @@ to fetch all ammentites ---> service operator
 date picker & check box visit --> promocode management
 web default language ---> promocode management
 
-to pus in [] data from the node side visit --> "/sharedCoin" user > userRout.js file node side
+to push in [] data from the node side visit --> "/sharedCoin" user > userRout.js file node side
+
+to see driver's preferred location --> driver management
+to se diffrent status visit --> ride request management
+detect changes --> ride rating
 ============================================================
 16/09/2020
 16- setup for ride alott in angular and node side
@@ -80,32 +89,32 @@ to pus in [] data from the node side visit --> "/sharedCoin" user > userRout.js 
     made Trim API in Node side & made CRUD Operation of it   <---  M1_ADMIN_TRIM_MANAGEMENT
 24- 
 25- Making API for Add, Edit Functionality for Vehicle Deatil in Node
-28-  search by name filter in driver management, Applied Css for table,Removed param :- vehicleImage, user_vehicleImageId, numberPlate, carType
+28- search by name filter in driver management, Applied Css for table,Removed param :- vehicleImage, user_vehicleImageId, numberPlate, carType
      Added New Param :- modelId, trimId, amenities[], insurance_image, inspection_image , isVehicleDefault, added date picker and resolved state validation error 
      Account type added with select done
 29- worked on add vehicle and update functionality in Node side & anglar side
 30- solving bugs in ride alott project
-1- solving bugs in ride alott project
-2- changes in Driver Management & Rider Management, solving bugs solving bugs in ride alott project
-5- solving bugs solving bugs in ride alott project
-6- making driver,ride and operator Verified & Rejected Mail functionality
-7- making vehicle Verified & Rejected Mail functionality, proper commenting  First letter capital functionality
-8- solving vgs in ride tech 
-9- solving vgs in ride tech
+1-  solving bugs in ride alott project
+2-  changes in Driver Management & Rider Management, solving bugs solving bugs in ride alott project
+5-  solving bugs solving bugs in ride alott project
+6-  making driver,ride and operator Verified & Rejected Mail functionality
+7-  making vehicle Verified & Rejected Mail functionality, proper commenting  First letter capital functionality
+8-  solving vgs in ride tech 
+9-  solving vgs in ride tech
 12- Operator side changes Added Operator Commission, Invoice Detail Tab and changes in personal profile & get list in Angular and Node side as well like Ride Tech 
     admin image validation ---> admin Management 
-     Badge image validation ----> Badge Management 
-     statik messages removed in each and every module  added hors inzooho
+    Badge image validation ----> Badge Management 
+    statik messages removed in each and every module  added hors in zooho
 13- statik messages removed in each and every module, made Google Sheet for Driver  
-14-  made Google Sheet For Rider Remaning API, implimented Service Operator, Reason Management & Temaplate Management, made reason reason by name filter working
-     applied grid for  service operator, apllied side bar tab like Ride Tech 
+14- made Google Sheet For Rider Remaning API, implimented Service Operator, Reason Management & Temaplate Management, made reason reason by name filter working
+    applied grid for  service operator, apllied side bar tab like Ride Tech 
 15- Promocode Management Implemented & did changed like ride tech, CMS fetch data & update issue solved, Tested all Modules in live server
     help topic, help,  modified, template  modified date filter issue resolved
 16- changed in Rider Regiter Email 
     Implimented Email Notification and SMS module  in Angular & Node side
-19-  registration mail when Admin is registered with his credential For Admin, registration mail when Operator is registered with his credential For Operator
-     operator's driver list implemented -Done 
-20-  solving bugs ib Ride alott
+19- registration mail when Admin is registered with his credential For Admin, registration mail when Operator is registered with his credential For Operator
+    operator's driver list implemented -Done 
+20- solving bugs ib Ride alott
 21- implemented Fare Calculation Management, implemented High Demand Area Management, worked on validation for Fare Calculation 
 22- 
 23- solving bugs
@@ -118,8 +127,23 @@ to pus in [] data from the node side visit --> "/sharedCoin" user > userRout.js 
 3, 4/11/2020 - leave
 5, 6, 9, 10, 11, 12-- Solving Bugs of Ride Alott & Did Changes in Admin Panel
 13, 14, 15, 16, 17  -Diwali leave
-18, 19, 20 - Solving Bugs of Ride Alott & Did Changes in Admin Panel
-    
+18, 19, 20, 23 - Solving Bugs of Ride Alott & Did Changes in Admin Panel
+25- Map issue resolved for polygone in operator side, Chanaged in Driver's address details in Admin & Mobile side, Changed name from "RideALottery" to "RideALott" throughout Admin Panel 
+26- preferred location tab inserted in operator, replace images with hd logo image Angular & Node Side, compared mobile screen with Admin panel & checked all field
+    puted curly bracket in RideALott{ery} in title, Map issue resolved for polygone in operator side, Chanaged in Driver's address details in Admin & Mobile side 
+27- Make reset password functionality in rider & driver side
+30- 
+1- reset password functionality in ride tech in rider & driver side   u
+2- made preferred list functionality and worked on ride rating management 
+3- worked ride rating managment & preferred location Add, edit ,fetch functionality 
+4- preferred location CRD fnctionality, Ride Rating management
+7- admin panel design changes and worked in admin panel
+8- and API checked the flow of ride rating and ride request, made car type in vehicle list 
+10- mad preferred location added varified status should be shown 
+11, 14, 15, 16 - admin panel test
+17, 18,
+21 - worked on email functionality
+Admin Panel Changes in Ride ALott Transportation
 
 M1_ADMIN_FORGOT_PASSWORD
 M1_ADMIN_MANAGEMENT
@@ -131,6 +155,8 @@ M1_ADMIN_BADGE_MANAGEMENT
 M1_ADMIN_AMMENITIES_MANAGEMENT
 M1_ADMIN_OPERATOR_MANAGEMENT
 M1_ADMIN_DRIVER_MANAGEMENT
+
+No data available in table
 
 M1_PRIVACY_POLICY_TERM_CONDITION_MANAGEMENT
 M1_ADMIN_TRIM_MANAGEMENT
@@ -150,11 +176,17 @@ M1_ADMIN_EMAIL_TEMPLATE_MANAGEMENT
 M1_ADMIN_FARE_CALCUlATION_MANAGEMENT
 M1_ADMIN_HIGH_DEMAND_AREA_MANAGEMENT
 M1_ADMIN_PANEL_BUGS_RESOLVED_RIZWAN
+M1_ADMIN_PREFERRED_LOCATION
+M1_RIDE_RATING_MANAGEMENT
+M1_RIDE_REQUEST_MANAGEMENT
+M2_ADMIN_PANEL_CHANGES
+M2_ADMIN_PANEL_CHANGES_RIZWAN
+M2_BUGS_FIXED_RIZWAN
 
+preferred
 code p
-
-            rejectedReason: joi.optional() u
-
+PREFERRED_LOCATION
+rejectedReason: joi.optional() u
 
 code pushed to branch M1_ADMIN_EMAIL_TEMPLATE_MANAGEMENT
 
@@ -165,7 +197,6 @@ Today's Work
 --> changed in Rider Regiter Email 
 --> Implimented Email Notification and SMS module  in Angular & Node side
  
-
 updateAddress
  if (details.user_bankDetail.verifiedStatus != '2' && details.user_bankDetail.verifiedStatus != '3') {
                 details.user_bankDetail.rejectedReason = null;
@@ -174,8 +205,6 @@ updateAddress
                 let condition = 5
                 await email.sendMailTemplate(result, details, condition )
             }
-
-
 
 (change)="selectVerifiedValue($event)"
  <div class="form-group row" *ngIf="!isVerifiedSelected">
@@ -205,13 +234,6 @@ updateAddress
             { 
                this.isVerifiedSelected = true;
             }
-
-
-
-
-
-
-
 
 driverDocumentVerifiedStatus: any = appConstants.DRIVER_VERIFIED_STATUS;
      <div class="col-lg-6">
@@ -258,9 +280,9 @@ driverDocumentVerifiedStatus: any = appConstants.DRIVER_VERIFIED_STATUS;
 
 url: any = DEFAULT_IMAGES.ADD_PHOTO;
 this.toastr.error('you can upload only jpg,png,jpeg extension file max 4 MB');
- this.toastr.error(this.BADGE_CONST.LABEL.NOTALLOWED_IMAGE);
+this.toastr.error(this.BADGE_CONST.LABEL.NOTALLOWED_IMAGE);
 this.toastr.error('profile image is required')
- this.toastr.error(this.BADGE_CONST.LABEL.IMAGE_REQUIRED)
+this.toastr.error(this.BADGE_CONST.LABEL.IMAGE_REQUIRED)
     First Name is invalid. 
 
    {{'OPERATOR.VALIDATION.FIELD_REQUIRED' | translate }}
@@ -274,9 +296,7 @@ issues in ride alott
 ---> Tested all Modules in live server
 ---> help topic, help,  modified, template  modified date filter issue resolved
 
-
 sighn out for the day
-
 
 operator register thai che tyare "user email" "passoword"  jete user(operator) ne javo joie
 admin register thai che tyare "user email" "passoword"  ---> http://localhost:15001/api/admin/add
@@ -291,15 +311,6 @@ code push kari dhi dhu che M1_API_RIZWAN
 ---> implemented Fare Calculation Management
 ---> implemented High Demand Area Management
 ---> worked on validation for Fare Calculation 
-
-U u
-
-
-common email kya kya aavse  admin side
-
-If you did not make this request, you can ignore this email and your password will remain the same.
-Thank you.
-
 
  <td>
      <a href="#" style="margin-right: 5px;"><img src="${constants.EMAIL_TEMPLATE_IMAGES.FACEBOOK}" alt="facebook"></a>
@@ -376,7 +387,7 @@ che Help, Time Frame, Fare calclulation, Badge, Account Type
 --> admin panel tested
 
     code pushed to branch M1_API_RIZWAN 
-    Leaving for the day
+    Leaving for the day 
 
 fare calculation for "all tab is required
 
@@ -417,9 +428,9 @@ AB-02 comment,
 AB-03 comment, AB-09 In QA, 
 AB-10 Query - Driver Management  - Vehicle - On admin it is showing the option for  'BRAND NAME' but there is no option on the mobile app.
 AB-12 Driver Management - By default it is showing Active status
-AB-19  IN QA Rider user registration - Details are not showing on admin which are added from the app while registration of the new user.
+AB-19 IN QA Rider user registration - Details are not showing on admin which are added from the app while registration of the new user.
 AB-31 Driver Management - Showing wrong date for 'Modified on'
-AB-33  In QA Fare Calculation Manangement - On deleting the record page contant showing loader and in console showing 'status of 404 (Not Found)'
+AB-33 In QA Fare Calculation Manangement - On deleting the record page contant showing loader and in console showing 'status of 404 (Not Found)'
 AB-34 Dev Comment 
 Operator Management - Add new record - Operator details - there is not option available to select the value for CITY.
 
@@ -455,8 +466,189 @@ shapes badha delete kari ne draw kari ye to aary ma proper push tahi che
 
 issue is shap draw karelu che edit wakahte and draw kari su to te error aape che
 
---> Resolved Bugs
---> worked on Image preview
---> made sheet for complited & remaining Modules
-    
-    Sign Out for the day
+--> Map issue resolved for polygone in operator side
+--> Chanaged in Driver's address details in Admin & Mobile side 
+--> Changed name from "RideALottery" to "RideALott" throughout Admin Panel
+
+--> lack of technicle knowlede
+--> not following instruction
+--> often want help
+--> independent work nahi karparaha hu
+
+
+--> preferred location tab inserted in operator
+--> replace images with hd logo image Angular & Node Side
+--> compared mobile screen with Admin panel & checked all field
+--> puted curly bracket in RideALott{ery} in title
+--> Map issue resolved for polygone in operator side
+--> Chanaged in Driver's address details in Admin & Mobile side 
+    Leaving for the day
+https://ridealott-storage.s3.ap-south-1.amazonaws.com/logos/logo_dark%403x.png
+https://ridealott-storage.s3.ap-south-1.amazonaws.com/logos/logo_white%403x.png
+
+forgot password > email to email address
+User Name to Username 
+Mobile No to Mobile Number
+Email to Email Address
+
+in which module reset password functionality is to to be included ?
+
+video na 16:30 par
+rider & driver management ma "Reset passsword" nu button rakhwanu che
+tena par click kare to "user na mail" par "rendom password" generate kari send karva nu che
+
+button name = regenerated and send password  password should be 8 characters
+
+user_regeneratedPasssword
+
+new generated password send to rider or driver
+regeneratedAndSendPassword
+
+
+ISSuE
+--> ride registartion mail not working---> working Done
+--> fare calclation, RIder, Driver ui isse
+--> 
+--> 
+
+    Sign out for the day 
+
+static removed 
+check by adding vehicle mail functionality
+
+--> Regristeration mail not proper user name not showing proper
+--> check by deleting user "isDeleted: true or false" for driver, rider & operator 
+--> 
+
+menu.config
+pages.title
+app.routing
+module, ts files 
+
+check in salary slip uan number
+
+last time On August 25 i filled up form of "PF & ESIC Details Form"  so why my PF account didn't generate yet
+
+
+Basic Salary    9000.00   | Professional tax                      150.00
+HRA (AMT)        607.00   | PF Employee Contribution (12.00%)   1,080.00
+               ---------  | ESIC Employee Contribution (0.75%)      0.00
+Total Earnings 9,607.00   |                                    --------- 
+                                           Total Deduction      1,230.00
+
+that means
+
+
+
+
+why showing me Basic Salary 9000 instead of 11000
+and PF & PT are deducate from the basic salary of 9000
+
+          My CTC is                11000.00
+employer PF Contribution         - 1,080.00         	 	     
+employer ESIC Contribution       -   313.00
+Professional Tax                 -   150.00
+                                 ------------
+My Salary be after all deducation  9,457.00rs  
+
+
+instead of getting 9,457.00rs what i am actually getting 9,607.00rs
+
+from the  9,607.00 why PF, ESIC is deducated again ?
+which i acually paid for PF, ESIC & PT ?
+
+getOperatorServiceTypes
+
+
+1. onMapReady
+
+
+
+Hello [NAME],
+
+       New Password has been send to your mail id please login with it.
+
+       Your New Password is: [PASSWORD]
+
+
+
+Regards,  
+
+Ride ALottery Team
+
+random password
+forgot password issue
+
+
+
+user_roleId:
+RANDOM_PASSWORD_GENERATE
+"rendomPassword_generate"
+
+
+
+
+mongodb
+ath relate api complite login, logot, 
+
+
+
+ab-12, ab-34,ab-36
+
+registrationNoImage not available in admin side
+
+auto complet lat long by place
+https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete
+https://jsfiddle.net/limeric29/6ax9N/
+
+--> is publiched, modified on removed -done	
+--> place holdermane changed -done
+--> view ride rating list  -done
+--> disabled input field -done
+--> country field reemoved -done
+--> ride tip commented -done
+--> total fare coin added  - done
+--> reaplace rideRequest_approx_fare_coin 
+--> star rating
+
+remaining driver name
+ride complited date "-"
+  this.viewRideRequestForm.patchValue({
+          rideRequest_driver_name: "-"
+        })
+     '
+rideRequest_approx_fare_coin
+  "PAYMENT_METHOD":"Payment Method",
+            "PAYMENT_STATUS": "Payment Status", en
+    rideRequest_approx_fare_coin: 1, in get list
+PAYMENT_METHOD
+PAYMENT_STATUS
+
+citizenship details
+PENDING = 0
+FILL = 1
+REJECTED = 2
+VARIFIED = 3
+U
+
+AB-42 Done
+AB-43 Done
+AB-44 new driver when register theire details is showing
+AB-45 Done
+AB-46 but star in list remaining
+AB-47 Done
+AB-48  https://stackblitz.com/edit/angular-easy-show-more-133len?file=src%2Fapp%2Fapp.component.html
+
+appressal form
+
+AB-46
+AB-40
+
+https://medium.com/@ishitaa.ashley4/simple-star-rating-css-and-javascript-8c450046ba2b
+ if(a=="" || a.length <= 15) {
+            return a
+            else {
+            var shortText= a.substring(0,30);
+            var cleanStr= a.replace(/["']/g, "")
+            return shortText + '...' + "<a id=\"toggleButton\" onclick=\"toggleShowMoreLessText('"+cleanStr+"');\" href=\"javascript:void(0);\">(Read more)</a>"
+            }

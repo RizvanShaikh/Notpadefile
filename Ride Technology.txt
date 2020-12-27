@@ -18,8 +18,12 @@ git checkout M1
 put env file and then nodemon server.js for node
 
 http://jsonviewer.stack.hu/
- RL: http://13.233.92.186:13001/Admin/#/login
------------------------- Ride Tech  ------------------------------------
+URL: http://13.233.92.186:13001/Admin/#/login
+
+Admin user: webclues.superadmn@gmail.com
+Password: test@123
+
+------------------------ Ride Tech ------------------------------------
 only Help Topic List in select list ----> Help Management  - single
 only county List in in select list ----> City Management - single
 
@@ -75,14 +79,14 @@ onClick() {
 		this.router.navigate(['profile']);	
 	}
 routerLink="/forgot-password"  routerLink="/reset-password"
-{{myForm.controls.myEmailField.errors| json}}
+{{ myForm.controls.myEmailField.errors | json }}
 
 want to understand "$elemMatch" visit userService.js line 409
 "user_cardHistory.$.cardId"  line 364
 
---> us of lodash _.sum(), _.ceil(), _.round(), _.cloneDeep(),  _.split(), _.subtract()	
--->  $match, $sort, $project, $wind, $unwind, $filter, $in, $nin, $gte, $lt, $skip, $limit
---> vistit ride rating  module let ratingQuery = [{
+--> use of lodash _.sum(), _.ceil(), _.round(), _.cloneDeep(),  _.split(), _.subtract(), details['faq_slug'] = _.kebabCase(req.body.faq_question)
+
+--> visit ride rating  module let ratingQuery = [{
         $match: { rideRating_toUserId: mongoose.Types.ObjectId(rideRating_toUserId) }
     }, {
         $group: {
@@ -97,7 +101,7 @@ want to understand "$elemMatch" visit userService.js line 409
     } else {
         skip = (page - 1) * constants.PER_PAGE_RECORD;
     }
---> understand rideRequest, rideRating, loyaltiPoint flow & tridetails API in userDriver side
+--> understand rideRequest, rideRating, loyaltiPoint, FAQ module flow & tridetails API in (userDriver side)
 --------------------------------------------------------------------------------------
 
 webclues.superadmn@gmail.com
@@ -141,8 +145,7 @@ country_status: ["ACTIVE", []],
 function getTimeFrame(req, res) {
     let aggQuery = [{
         $project:
-        {
-           
+        {  
               timeFrame_timeType:  "$timeFrame_timeType",
         }
     }, { '$unwind': '$timeFrame_timeType' }, { $project: { _id: 1, timeFrame_timeType: '$timeFrame_timeType'} }];
@@ -215,3 +218,30 @@ function getAllColors(req) {
         return result;
     })
 }
+
+
+Hello [NAME],
+
+        New Password has been send to your mail id please login with it.
+
+        Your New Password is: [PASSWORD]
+
+Regards,  
+
+Ride Tech Team
+rendomPassword_generate
+
+ M1_ADMIN_PANEL_CHANGES_RIZWAN
+
+--> $elemMatch,
+ $match,
+ $sort, 
+$project, 
+$wind, 
+$unwind, 
+$filter, 
+$in  rideFindQuery = {
+            rideRequest_driver_id: mongoose.Types.ObjectId(id),
+            rideRequest_ride_status: { $in: [constants.RIDE_STATUS.INPROGRESS, constants.RIDE_STATUS.ONTHEWAY, constants.RIDE_STATUS.ONRIDE, constants.RIDE_STATUS.PICKUP_POINT] }
+        },
+$nin, $gte, $lt, $skip, $limit, $group, $avg, $ifNull
