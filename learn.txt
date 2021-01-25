@@ -1,4 +1,4 @@
-https://docs.google.com/spreadsheets/d/18gtMeJVhZm7uKSVipB8lAioq3IXa1YlamH9UEq1wKq4/edit#gid=0
+https://docs.google.com/spreadsheets/d/18gtMeJVhZm7uKSVipB8lAioq3IXa1YlamH9UEq1wKq4/edit#gid=0 borrowed money
 savefrom youtube video downloader
 cs101 vu lecture
 virtual university of pakistan video lectures computer science
@@ -139,8 +139,8 @@ github & gist
 user name: RizvanShaikh
 pw: rizvangithub1994
 rizvan1994  linkedin pw
-userName:9879804646 pw:rizwanskpe1994 -->  skype
-username:8200120997 pw:rizvan1994 --> skype company
+userName: 9879804646 pw: rizwanskpe1994 -->  skype
+username: 8200120997 pw: rizvan1994 --> skype company
 
 1.git init
 2.git config user.name "RizvanShaikh"
@@ -168,8 +168,8 @@ git push origin master
 https://moviezflix.in/download-stranger-things-season-3-720p-hindi/
 
 https://bettercreator.com/
-user name: Rizwan Shaikh94
-pw: letmeinga
+useremail: rizwanshaikh8085@gmail.com
+pw: rizwan1994$
 
 https://mongoosejs.com/docs/
 
@@ -226,10 +226,19 @@ shramshuvidha credential in EPFO website
 userid:  rizwanshaikh07
 passowrd: riZwan@1994
 
+https://passbook.epfindia.gov.in/MemberPassBook/Login
+https://passbook.epfindia.gov.in/MemberPassBook/Login
+
 101600705224
+
+godaddy cedential
+ser name: rizwan1994
+pw: rizwan1994
+CJCDED99R
 
 json viewer
 http://jsonviewer.stack.hu/
 
 elastic search
 https://medium.com/better-programming/integrate-elasticsearch-with-node-js-37ed7b286f1c
+

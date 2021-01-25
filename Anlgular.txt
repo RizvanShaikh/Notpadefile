@@ -75,6 +75,8 @@ directives:-  There are three kinds of directives in Angular: Components—directi
 25) what is a calleback function?, and its syntax?
 26)  what is promis and its syntax?.lar
  27) what is layzi loading in angular?
+
+Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node. js. MongoDB is a schema-less NoSQL document database.ss
 ----OOPS concepts------------
 1) object oreined Prgramming structure
 2) 6 main pillars of OPPs IS :-

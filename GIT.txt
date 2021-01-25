@@ -39,9 +39,8 @@ github & gist
 user name: RizvanShaikh
 pw: rizvangithub1994
 rizvan1994  linkedin pw
-pw:rizwanskpe1994  userName:9879804646 skype
-usrnm:8200120997 pw:rizvan1994 skype
-
+userName:9879804646 pw:rizwanskpe1994 -->  skype
+username:8200120997 pw:rizvan1994 --> skype company
 
 If you want to rename the current branch, you can do:
 git branch -m <newname>

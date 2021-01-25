@@ -103,6 +103,7 @@ want to understand "$elemMatch" visit userService.js line 409
     }
 --> understand rideRequest, rideRating, loyaltiPoint, FAQ module flow & tridetails API in (userDriver side)
 --------------------------------------------------------------------------------------
+ADMIN_PANEL_CHANGES_JEENA
 
 webclues.superadmn@gmail.com
 test@123
@@ -245,3 +246,8 @@ $in  rideFindQuery = {
             rideRequest_ride_status: { $in: [constants.RIDE_STATUS.INPROGRESS, constants.RIDE_STATUS.ONTHEWAY, constants.RIDE_STATUS.ONRIDE, constants.RIDE_STATUS.PICKUP_POINT] }
         },
 $nin, $gte, $lt, $skip, $limit, $group, $avg, $ifNull
+
+M1_ADMIN_PANEL_CHANGES_RIZWAN
+ADMIN_SUBSCRIPTION_JEENA
+M2_HIGH_DEMAND_AREA_MAP
+M2_PAYMENT_MANAGEMENT

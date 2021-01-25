@@ -1,6 +1,6 @@
 16/09/2020 - 16 september STARTED WORKING ON "RIDE ALOTT TRANSPOTATION LLC"
 
-carrot
+
 
 postman
 username : rizwan@webcluesifotech.com
@@ -9,14 +9,19 @@ password : rizwan1994
 server link LIVE
 URL: http://15.207.215.121:15001/Admin/#/login
 
- user: webclues.superadmn@gmail.com
+user: webclues.superadmn@gmail.com
 Password: test@123
 
 applink
 driver ---> https://projects.invisionapp.com/share/5FYBHAA8QET#/screens/427169466?browse
 rider ---> https://projects.invisionapp.com/share/JFYBGWU5WA2#/screens/427170177?browse
-ride alott bug sheet
-https://docs.google.com/spreadsheets/d/1DMJrMqTNbARysp3HsC1HUDBz2DqUT4zt7r4-Ogf1rKg/edit#gid=490875138
+   ride alott bug sheet
+-> https://docs.google.com/spreadsheets/d/1DMJrMqTNbARysp3HsC1HUDBz2DqUT4zt7r4-Ogf1rKg/edit#gid=490875138 
+   polygone
+-> https://jsfiddle.net/Lx1u2het/
+   ato complite lat long
+-> https://jsfiddle.net/limeric29/6ax9N/
+-> epochconverter.com timstam to human redable formate
 ========================Ride Alott==========================
 
 take refernece car brand for status search
@@ -64,6 +69,7 @@ to push in [] data from the node side visit --> "/sharedCoin" user > userRout.js
 to see driver's preferred location --> driver management
 to se diffrent status visit --> ride request management
 detect changes --> ride rating
+show hide field --> reason management
 ============================================================
 16/09/2020
 16- setup for ride alott in angular and node side
@@ -143,6 +149,7 @@ detect changes --> ride rating
 11, 14, 15, 16 - admin panel test
 17, 18,
 21 - worked on email functionality
+22, 23, 24, 28 ,29
 Admin Panel Changes in Ride ALott Transportation
 
 M1_ADMIN_FORGOT_PASSWORD
@@ -186,7 +193,7 @@ M2_BUGS_FIXED_RIZWAN
 preferred
 code p
 PREFERRED_LOCATION
-rejectedReason: joi.optional() u
+rejectedReason: joi.optional() u U  
 
 code pushed to branch M1_ADMIN_EMAIL_TEMPLATE_MANAGEMENT
 
@@ -585,18 +592,6 @@ user_roleId:
 RANDOM_PASSWORD_GENERATE
 "rendomPassword_generate"
 
-
-
-
-mongodb
-ath relate api complite login, logot, 
-
-
-
-ab-12, ab-34,ab-36
-
-registrationNoImage not available in admin side
-
 auto complet lat long by place
 https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete
 https://jsfiddle.net/limeric29/6ax9N/
@@ -631,18 +626,9 @@ REJECTED = 2
 VARIFIED = 3
 U
 
-AB-42 Done
-AB-43 Done
-AB-44 new driver when register theire details is showing
-AB-45 Done
-AB-46 but star in list remaining
-AB-47 Done
 AB-48  https://stackblitz.com/edit/angular-easy-show-more-133len?file=src%2Fapp%2Fapp.component.html
 
 appressal form
-
-AB-46
-AB-40
 
 https://medium.com/@ishitaa.ashley4/simple-star-rating-css-and-javascript-8c450046ba2b
  if(a=="" || a.length <= 15) {
@@ -652,3 +638,69 @@ https://medium.com/@ishitaa.ashley4/simple-star-rating-css-and-javascript-8c4500
             var cleanStr= a.replace(/["']/g, "")
             return shortText + '...' + "<a id=\"toggleButton\" onclick=\"toggleShowMoreLessText('"+cleanStr+"');\" href=\"javascript:void(0);\">(Read more)</a>"
             }
+
+domain 1 year 400 - 500
+       3 year 
+hosting + domain 3500
+
+hosting unlimited hosting 2200
+
+
+3brainstechnology
+manprit
+
+on staging server issue
+
+-> from rider id to ride id in ride rating
+-> in staging ride request data in list is not showing but in local ride request data in list is showing
+-> for "Cancelled" ride filter not working ride request
+-> UI cut off issue in ride request state
+
+
+
+
+highdemand area issue 
+--> status Active or Inactive is not working
+--> map functionality is not working on stagging server
+--> high demand area "created date" doesn't showing proper
+
+
+--> "created date" is not showing proper in help topic &  help management 
+
+shakil@gmail.com
+
+operator management issue on live
+--> in operator detail map functionality doesn't working properly, i mean polygone is doesn't showing on live  ---> working on local 
+--> when we try to add preferred location it is giving this error "There is some issue while adding preference location" ---> working on local 
+--> in "operator details" tab License Number text field it is taking the alpha value it must take numaric value 
+--> in  "bank details" tab Account Number, Institution Number, Transist Number text field it is taking the alpha value it must take numaric value
+
+highdemand area issue 
+--> status Active or Inactive is not working - Done
+--> high demand area "created date" doesn't showing proper - Done
+
+help & helptopic management
+--> "created date" is not showing proper  - Done
+--> "help title"  it is taking the numeric value, this could be the issue - Done
+
+
+
+
+
+in EPFO website  to know my PF here showing me UAN number & password
+i have UAN number but i don't have password
+
+
+there is 2 way to know PF first one is with registered number on EPFO website second is by giving missed call to 011-22901406  
+
+
+True, but he asking do in below format
+
+farmingPractices:"123334","333333"
+
+See I have removed the array
+https://www.codegrepper.com/code-examples/javascript/node+js+comma-separated-values
+
+
+fd.append('withdrawal_status',  JSON.stringify([{ form.withdrawal_status}]));
+      fd.append('withdrawal_receiptImage', this.imageFile);
