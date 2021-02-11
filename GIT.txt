@@ -50,3 +50,9 @@ git checkout -b <branch name>
 
 to see all branches
 git branch -a
+
+to fetch all barnches
+get fetch 
+
+go to the main branch 
+git merge "branch name"

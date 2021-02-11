@@ -684,20 +684,6 @@ help & helptopic management
 --> "help title"  it is taking the numeric value, this could be the issue - Done
 
 
-
-
-
-in EPFO website  to know my PF here showing me UAN number & password
-i have UAN number but i don't have password
-
-
-there is 2 way to know PF first one is with registered number on EPFO website second is by giving missed call to 011-22901406  
-
-
-True, but he asking do in below format
-
-farmingPractices:"123334","333333"
-
 See I have removed the array
 https://www.codegrepper.com/code-examples/javascript/node+js+comma-separated-values
 

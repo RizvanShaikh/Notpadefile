@@ -1,0 +1,14 @@
+termius credential
+rizwanshaikh8085@gmail.com
+fixun@123
+
+Termius steps
+
+ cd /var/www/html/
+ cd carrots-backend/
+ git pull
+
+ pm2 list
+ pm2 restart 0
+
+ pm2 logs 0

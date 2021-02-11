@@ -35,7 +35,7 @@ country wise city list ----> Fare Calculation Management & Service Operator
 
 stringIfy Image in ----> Service Type
 
-operator list by id in get list in ----> fare calculation & service opertatore
+operator list by id in "get list API" ----> fare calculation & service opertatore
 time in ---->fare calculation
 time ----> reason Module
 
@@ -251,3 +251,5 @@ M1_ADMIN_PANEL_CHANGES_RIZWAN
 ADMIN_SUBSCRIPTION_JEENA
 M2_HIGH_DEMAND_AREA_MAP
 M2_PAYMENT_MANAGEMENT
+
+

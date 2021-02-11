@@ -152,8 +152,8 @@ https://github.com/jerga99/book-with-me-ng
                           /bwm-ng or bwm-react
 
 //------------------------------
- git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
 
 git  comands:-
 
@@ -199,15 +199,19 @@ http://27.109.9.122:3000/user/login?redirect_to=
 url: 27.109.9.122:3000
 user: wc.rizwan
 password: rizwan#123
+
 1.git init
 2.git config user.name "wc.rizwan"
 3.git config user.email "rizwan@webcluesifotech.com"
 4.git add *
 5.git commit -m "some init msg"
+
 open ride
 http://27.109.9.122:3000/NodeJS/open_ride_technology_ms1.git
+
 redis
 https://github.com/microsoftarchive/redis
+
 postman credential           
 username : rizwan@webcluesifotech.com
 password : rizwan1994   
@@ -232,9 +236,14 @@ https://passbook.epfindia.gov.in/MemberPassBook/Login
 101600705224
 
 godaddy cedential
-ser name: rizwan1994
+user name: rizwan1994
 pw: rizwan1994
 CJCDED99R
+
+termius credential
+rizwanshaikh8085@gmail.com
+fixun@123
+
 
 json viewer
 http://jsonviewer.stack.hu/

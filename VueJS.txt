@@ -1,0 +1,29 @@
+https://vuejs.org/v2/guide/
+
+https://cli.vuejs.org/
+
+npm install -g @vue/cli
+
+vue --version     to see version of vue
+
+---- for linx ----
+vue create test
+npm run serve   to run project
+
+---- for windows ----
+vue init webpack-simple my-vue-app
+cd my-vue-app
+npm install
+npm run dev
+
+npm i axios vue-axios  <---- to call api's download this package
+vue add bootstrap-vue  <---- to add bootstrap 
+npm install vue-router <-- to install router
+dummy.restapiexample.com
+
+
+ addCategory() {
+      this.axios.get("http://localhost:3000/api/category/category").then((result) => {
+        this.categories = result.results;
+      });
+    },	
