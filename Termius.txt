@@ -12,3 +12,8 @@ Termius steps
  pm2 restart 0
 
  pm2 logs 0
+
+nano .env (to see .env file in termius)
+shift + insert (to past)
+Ctrl + o (to save)
+Ctrl + x (to exit)
