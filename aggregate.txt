@@ -1,0 +1,38 @@
+how to apply $loockup query ?
+https://www.youtube.com/watch?v=C3GgMJG2_fk
+https://www.youtube.com/watch?v=HEg610XRo4A
+db.subcategories.aggregate([
+    {
+        $lookup:
+       {
+        from: "categories",
+        foreignField: "_id",
+        localField: "categoryId",
+        as: "cotegoryDetails"   
+       }
+  }
+])
+
+smartytechfizz@gmail.com
+
+
+ {
+      $project: {
+        /* $filter applied to get en object to be filtered */
+          
+      translation: {
+            $filter: {
+              input: "$translation",
+              as: "translate",
+              cond: { $eq: [ "$$translate.language", "en"]}
+            }
+          }
+      }
+    },
+    { $unwind: "$translation" },
+{   
+         $project: {
+         "translation.name" : 1,
+             "cotegoryDetails.translation": 1
+             }
+             }

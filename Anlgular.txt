@@ -131,3 +131,91 @@ file:///C:/Users/Rizwan/AppData/Roaming/npm/ng.ps1
 
 the most poplar anglar qestion answer
 https://medium.com/free-code-camp/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
+
+
+i anaylize several point that you mentioned above i got to know few points
+ 
+=> Auth Guard
+   The auth guard is used to prevent unauthenticated users from accessing restricted routes, in this "Flexy UI" Code  in app.routing.ts file you used "[EnsureAuthenticated]" 
+   to protect from entering to "home page". 
+
+=> There are Two interceptors are used 
+   1. Http Error Interceptor
+   2. JWT Interceptor
+
+=> Http Error Interceptor
+   The Error Interceptor intercepts http responses from the api to check if there were any errors. If there is a 401 Unauthorized response the user is automatically 
+   logged out of the application
+
+=> JWT Interceptor
+   The JWT Interceptor intercepts http requests from the application to add a JWT auth token to the Authorization header if the user is logged in.
+
+=> Shared Module 
+   regarding shared module. that modules are included here which can be used in defferent componets
+   Ex:- Loader, Pagination, Search bars, Buttons 
+
+=> form Array 
+   contains formControls, formGroups
+formArray example
+https://www.digitalocean.com/community/tutorials/angular-reactive-forms-formarray-dynamic-fields
+FormControl: FormControl is a class that is used to get and set values and validation of the form control such as <input> and <select> tag.
+
+FormGroup: FormGroup has a role in tracking the value and validity state of a group of FormControl.
+
+FormArray: FormArray tracks a value and validity state of the array of FormControl, FormGroup, or FormArray instances.
+
+  const formArray = new FromArray([
+    new FormControl('Rizwan', Validators.required),
+    new FormControl('Shaikh', Validators.required),
+  ])
+ // out put ['John', 'IT']
+  const fromArray = this.fb.array([
+    new FormControl('Rizwan', Validators.required),
+    new FormControl('shaikh', Validators.required)
+  ])
+ // out put {0:'Rizwan', 1:'shaikh'}
+
+1. addSkillFromGroup(): FormGroup {
+        return this.fb.group({
+            skillName: ["", Validators.required],
+            experience: ["", Validators.required],
+            profiency: ["", Validators.required]
+        })
+    }
+
+2. skills: this.fb.array([this.addSkillFromGroup()]),
+
+3. <div formArrayName="skill" *ngFor="let skill of employeeForm.get('skills').controls; let i = index" >
+     <div [formGroupName]="i">
+       // and remaining skillNAme, experience:, profiency:  will be here
+     </div>
+   </div>
+4. <button (click)="addSkillButtonClick()"> 
+       
+   </button>
+
+5. addSkillButtonClick(): void {
+    this.items = this.employeeForm.get('items') as FormArray;
+    this.items.push(this.addSkillFromGroup());
+  }
+
+ if we want dynamic input fields in that cases we need to use FromArray
+  so insort we can say that fromArray is collections of form controls and form array
+
+by two method we can achive formArray
+ first is const formArray = new FromArray([
+              new FormControl('Rizwan', Validators.required),
+              new FormControl('Shaikh', Validators.required),
+           ])
+
+second is  const fromArray = this.fb.array([
+              new FormControl('Rizwan', Validators.required),
+              new FormControl('shaikh', Validators.required)
+           ])
+
+i noted down sum points 
+
+
+https://stackoverflow.com/questions/42502449/generate-a-routing-module-while-creating-a-module-in-angular-cli
+this command will generate routing and module file
+ng g module [module-name] --routing

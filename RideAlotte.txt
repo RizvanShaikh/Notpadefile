@@ -368,321 +368,30 @@ dr. Nita Ma'am
 2397198
 natu bhai circle
 
-Issue in Site user
-Admin Management --> in Edit "image required" need to be implemented
-other wise  add, edit, filter, sorting working
-
-Operator Managment --> filter by display name created on modified on not working
-other wise  add, edit, sorting working
-
-Rider Management -->  in Edit "image required" need to be implemented 
-filter by display name created on modified on not working
-other wise  add, edit, sorting working
-
-Driver Management -->
-"Personal Profile", "bank details"  update not working whie "Edit"
-need to add State, City list Drop down 
-
-
-help topic, Country, City & State inputfield nathi for search
-
-che Help, Time Frame, Fare calclulation, Badge, Account Type 
-
-
---> changes in Account Type Title earlier which was showing "undefined"
---> removed unwanted imported modules which was not in use 
---> admin panel tested
-
-    code pushed to branch M1_API_RIZWAN 
-    Leaving for the day 
-
-fare calculation for "all tab is required
-
-Done
-Drop down ui issue -->resolved
-Brand, Model, Amenities, Trim & State  Allowing to add same name more than 1 issue - resolved
-Validation issue resolved in each and every module - resolved
-reason, admin, operator, Rider & Driver  UI issUe - resolved
-
-
-  u  U   
 code pushed to branch M1_ADMIN_PANEL_BUGS_RESOLVED_RIZWAN
-
-AB-10 On admin it is showing the option for 'BRAND NAME' but there is no option on the mobile app.
-AB-12 By default it is showing Active status.
-AB-19 Details are not showing on admin which are added from the app while registration of the new user.
-
-
-AB-11, AB-17 State Issued value is showing blank, even though driver selected the value for state from the app. --> Done
-rider details can be update ---> Done
-Ab-06 Sign up - User name, Email and Mobile is already exists - Not showing proper message. ---> Done
-
-
-11-November
-AB-32 Text Ct off. ---> Done
-AB-34 Add new record - Operator details - there is not option available to select the value for CITY. ---> Done
-AB-35 Invoice the details - Enter long postal code - need to correct the error message ---> Done
-AB-26 Show proper validation messages through out the admin. --> Done
-AB-25 Allowing to add same name more than 1 time. ---> Done
-
-conty phone nmber
-Validators.pattern(validataion.alphaOnly)
-13, 16, 17 NOV showing Holiday in Calender
-b
-
-AB-01 comment, 
-AB-02 comment, 
-AB-03 comment, AB-09 In QA, 
-AB-10 Query - Driver Management  - Vehicle - On admin it is showing the option for  'BRAND NAME' but there is no option on the mobile app.
-AB-12 Driver Management - By default it is showing Active status
-AB-19 IN QA Rider user registration - Details are not showing on admin which are added from the app while registration of the new user.
-AB-31 Driver Management - Showing wrong date for 'Modified on'
-AB-33 In QA Fare Calculation Manangement - On deleting the record page contant showing loader and in console showing 'status of 404 (Not Found)'
-AB-34 Dev Comment 
-Operator Management - Add new record - Operator details - there is not option available to select the value for CITY.
-
-AB-36 comment, 
-AB-37 comment
-
-local edit state  --> Done
-Reopen
-help & help topic --> Done
- contry --> Done
- service type--> Done edit no
- badge --> Done edit no  
- reason--> Nop
- CMS --> nop  , 
- email, notification & SMS --> done edit remaining
-AB-25 `This ${moduleName} already exist, Please enter different state name.`,
-AB-34 , 
-AB-35 Operator Management - Invoice the details - Enter long postal code - need to correct the error message.--> done
 
 
 image zooming
 https://stackblitz.com/edit/image-zoom1?file=src%2Fapp%2Fapp.component.html
 Going For Lunch
 
-AB-12 Driver Management - By default it is showing Active status
-AB-36 After clearing the entered keyword, all the records should display back by default.
-AB-37 Search - On changing the 'status' and 'Registered Via' - it should start searching the record automatically without clicking the seach button.
-var statusChange
-
-Jeena@gmail.com
-
 shapes badha delete kari ne draw kari ye to aary ma proper push tahi che
 
-issue is shap draw karelu che edit wakahte and draw kari su to te error aape che
-
---> Map issue resolved for polygone in operator side
---> Chanaged in Driver's address details in Admin & Mobile side 
---> Changed name from "RideALottery" to "RideALott" throughout Admin Panel
-
---> lack of technicle knowlede
---> not following instruction
---> often want help
---> independent work nahi karparaha hu
-
-
---> preferred location tab inserted in operator
---> replace images with hd logo image Angular & Node Side
---> compared mobile screen with Admin panel & checked all field
---> puted curly bracket in RideALott{ery} in title
---> Map issue resolved for polygone in operator side
---> Chanaged in Driver's address details in Admin & Mobile side 
-    Leaving for the day
-https://ridealott-storage.s3.ap-south-1.amazonaws.com/logos/logo_dark%403x.png
-https://ridealott-storage.s3.ap-south-1.amazonaws.com/logos/logo_white%403x.png
-
-forgot password > email to email address
-User Name to Username 
-Mobile No to Mobile Number
-Email to Email Address
-
-in which module reset password functionality is to to be included ?
-
-video na 16:30 par
-rider & driver management ma "Reset passsword" nu button rakhwanu che
-tena par click kare to "user na mail" par "rendom password" generate kari send karva nu che
-
-button name = regenerated and send password  password should be 8 characters
-
-user_regeneratedPasssword
-
-new generated password send to rider or driver
-regeneratedAndSendPassword
-
-
-ISSuE
---> ride registartion mail not working---> working Done
---> fare calclation, RIder, Driver ui isse
---> 
---> 
-
-    Sign out for the day 
-
-static removed 
-check by adding vehicle mail functionality
-
---> Regristeration mail not proper user name not showing proper
---> check by deleting user "isDeleted: true or false" for driver, rider & operator 
---> 
 
 menu.config
 pages.title
 app.routing
 module, ts files 
 
-check in salary slip uan number
-
-last time On August 25 i filled up form of "PF & ESIC Details Form"  so why my PF account didn't generate yet
-
-
-Basic Salary    9000.00   | Professional tax                      150.00
-HRA (AMT)        607.00   | PF Employee Contribution (12.00%)   1,080.00
-               ---------  | ESIC Employee Contribution (0.75%)      0.00
-Total Earnings 9,607.00   |                                    --------- 
-                                           Total Deduction      1,230.00
-
-that means
-
-
-
-
-why showing me Basic Salary 9000 instead of 11000
-and PF & PT are deducate from the basic salary of 9000
-
-          My CTC is                11000.00
-employer PF Contribution         - 1,080.00         	 	     
-employer ESIC Contribution       -   313.00
-Professional Tax                 -   150.00
-                                 ------------
-My Salary be after all deducation  9,457.00rs  
-
-
-instead of getting 9,457.00rs what i am actually getting 9,607.00rs
-
-from the  9,607.00 why PF, ESIC is deducated again ?
-which i acually paid for PF, ESIC & PT ?
-
-getOperatorServiceTypes
-
-
-1. onMapReady
-
-
-
-Hello [NAME],
-
-       New Password has been send to your mail id please login with it.
-
-       Your New Password is: [PASSWORD]
-
-
-
-Regards,  
-
-Ride ALottery Team
-
 random password
 forgot password issue
-
-
-
-user_roleId:
-RANDOM_PASSWORD_GENERATE
-"rendomPassword_generate"
 
 auto complet lat long by place
 https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete
 https://jsfiddle.net/limeric29/6ax9N/
 
---> is publiched, modified on removed -done	
---> place holdermane changed -done
---> view ride rating list  -done
---> disabled input field -done
---> country field reemoved -done
---> ride tip commented -done
---> total fare coin added  - done
---> reaplace rideRequest_approx_fare_coin 
---> star rating
-
-remaining driver name
-ride complited date "-"
-  this.viewRideRequestForm.patchValue({
-          rideRequest_driver_name: "-"
-        })
-     '
-rideRequest_approx_fare_coin
-  "PAYMENT_METHOD":"Payment Method",
-            "PAYMENT_STATUS": "Payment Status", en
-    rideRequest_approx_fare_coin: 1, in get list
-PAYMENT_METHOD
-PAYMENT_STATUS
-
-citizenship details
-PENDING = 0
-FILL = 1
-REJECTED = 2
-VARIFIED = 3
-U
 
 AB-48  https://stackblitz.com/edit/angular-easy-show-more-133len?file=src%2Fapp%2Fapp.component.html
-
-appressal form
-
-https://medium.com/@ishitaa.ashley4/simple-star-rating-css-and-javascript-8c450046ba2b
- if(a=="" || a.length <= 15) {
-            return a
-            else {
-            var shortText= a.substring(0,30);
-            var cleanStr= a.replace(/["']/g, "")
-            return shortText + '...' + "<a id=\"toggleButton\" onclick=\"toggleShowMoreLessText('"+cleanStr+"');\" href=\"javascript:void(0);\">(Read more)</a>"
-            }
-
-domain 1 year 400 - 500
-       3 year 
-hosting + domain 3500
-
-hosting unlimited hosting 2200
-
-
-3brainstechnology
-manprit
-
-on staging server issue
-
--> from rider id to ride id in ride rating
--> in staging ride request data in list is not showing but in local ride request data in list is showing
--> for "Cancelled" ride filter not working ride request
--> UI cut off issue in ride request state
-
-
-
-
-highdemand area issue 
---> status Active or Inactive is not working
---> map functionality is not working on stagging server
---> high demand area "created date" doesn't showing proper
-
-
---> "created date" is not showing proper in help topic &  help management 
-
-shakil@gmail.com
-
-operator management issue on live
---> in operator detail map functionality doesn't working properly, i mean polygone is doesn't showing on live  ---> working on local 
---> when we try to add preferred location it is giving this error "There is some issue while adding preference location" ---> working on local 
---> in "operator details" tab License Number text field it is taking the alpha value it must take numaric value 
---> in  "bank details" tab Account Number, Institution Number, Transist Number text field it is taking the alpha value it must take numaric value
-
-highdemand area issue 
---> status Active or Inactive is not working - Done
---> high demand area "created date" doesn't showing proper - Done
-
-help & helptopic management
---> "created date" is not showing proper  - Done
---> "help title"  it is taking the numeric value, this could be the issue - Done
-
 
 See I have removed the array
 https://www.codegrepper.com/code-examples/javascript/node+js+comma-separated-values
@@ -690,3 +399,39 @@ https://www.codegrepper.com/code-examples/javascript/node+js+comma-separated-val
 
 fd.append('withdrawal_status',  JSON.stringify([{ form.withdrawal_status}]));
       fd.append('withdrawal_receiptImage', this.imageFile);
+
+
+------ formArray -----
+https://www.digitalocean.com/community/tutorials/angular-reactive-forms-formarray-dynamic-fields
+1. highDemandArea_addresses: this._formBuilder.array([this.createFields()]),
+
+2. createFields(): FormGroup {
+        return this._formBuilder.group({
+            address: ["", [Validators.required,]],
+            coordinates: [[]],
+            radius: ["", [Validators.required,]]
+        })
+    }
+
+3. onAddAddress() {
+        this.highDemandArea_addresses.push(this.createFields())
+    }
+
+4. get highDemandArea_addresses(): FormArray {
+        let form = this.addEditHighDemandAreaForm;
+        if (form) {
+            return this.addEditHighDemandAreaForm.get('highDemandArea_addresses') as FormArray;
+        }
+    }
+
+5. onSubmit() {
+     highDemandArea_address: form.highDemandArea_addresses  
+   }
+
+6. <div formArrayName="highDemandArea_addresses">
+        <div *ngFor="let highDemandArea_address of highDemandArea_addresses.controls; let i = index;">
+            <div [formGroupName]="i">
+
+            </div>
+        </div>
+    </div>
