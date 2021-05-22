@@ -190,64 +190,6 @@ http://jsonviewer.stack.hu/
 elastic search
 https://medium.com/better-programming/integrate-elasticsearch-with-node-js-37ed7b286f1c
 
-
-//----------credential-----------
-sbi: 9446
-bob: 4646
-icici: 9446
-kotak: 944646
-
-Github & Gist 
-user name: RizvanShaikh
-pw: rizvangithub1994
-rizvan1994  linkedin pw
-userName: 9879804646 pw: rizwanskpe1994 -->  skype
-username: 8200120997 pw: rizvan1994 --> skype company
-
-Termius Credential
-rizwanshaikh8085@gmail.com
-Rizw@nT1994
-
-Godaddy Credential
-user name: rizwan1994
-pw: rizwan1994
-CJCDED99R
-
-pusher.com
-Push Notification (Pusher)
-email: rizwanshaikh8085@gmail.com
-pw: rizwanpusher1994
-
-shramshuvidha credential in EPFO website
-userid:  rizwanshaikh07
-passowrd: riZwan@1994
-
-Amazon Credential
-yo tbe: https://www.youtube.com/watch?v=uYnerMsxIVE
-amazon page for copan: https://www.amazon.in/gp/css/gc/payment/ref=gc_ya_subnav_balance
-email: rizwan@webcluesinfotech.com
-pw: rizwan1994
-
-https://bettercreator.com/
-useremail: rizwanshaikh8085@gmail.com
-pw: rizwan1994$
-
-Upstrapp Github Credential
-User Name: Rizwan-Upstrapp
-User PW: rizwanupstrapp1994
-
-EPFO SMS Service.
-UAN Activated
-UAN: 101600705224
-Password: HMwsMp#&#196
-8200120997 mobile number registered
-
-
-microsoft team
-pw: Gan12997
-//-------------------------
-
-
 1.git init
 2.git config user.name "RizvanShaikh"
 3.git config user.email "rizwanshaikh8085@gmail.com"
